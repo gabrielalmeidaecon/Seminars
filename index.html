@@ -2,19 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Goethe Econ – Seminar Dashboard</title>
+  <title>Goethe Seminars – Upcoming Events</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     :root {
       --bg: #0f172a;
-      --bg-alt: #020617;
-      --card: #020617;
+      --bg-card: #020617;
       --accent: #38bdf8;
-      --accent-soft: rgba(56, 189, 248, 0.1);
+      --accent-soft: rgba(56, 189, 248, 0.15);
       --text: #e5e7eb;
-      --muted: #9ca3af;
-      --border: #1f2937;
-      --radius: 16px;
+      --text-muted: #9ca3af;
+      --border: #1f2933;
+      --radius: 0.75rem;
     }
 
     * {
@@ -23,549 +22,516 @@
 
     body {
       margin: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
-        "Segoe UI", sans-serif;
-      background: radial-gradient(circle at top, #1f2937 0, #020617 40%);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #1e293b, #020617 55%);
       color: var(--text);
       min-height: 100vh;
       display: flex;
-      justify-content: center;
-      padding: 2rem 1rem;
-    }
-
-    .app {
-      width: 100%;
-      max-width: 1100px;
-      background: linear-gradient(145deg, #020617, #020617f0);
-      border-radius: 24px;
-      border: 1px solid rgba(148, 163, 184, 0.25);
-      box-shadow:
-        0 30px 80px rgba(15, 23, 42, 0.9),
-        0 0 0 1px rgba(15, 23, 42, 0.9);
-      padding: 1.75rem 1.75rem 2.25rem;
-      backdrop-filter: blur(16px);
+      flex-direction: column;
+      align-items: stretch;
     }
 
     header {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-      justify-content: space-between;
-      align-items: baseline;
-      margin-bottom: 1.5rem;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 1rem;
+      padding: 1.5rem 1.25rem 0.5rem;
+      max-width: 1100px;
+      width: 100%;
+      margin: 0 auto;
     }
 
-    header h1 {
-      font-size: 1.5rem;
-      margin: 0;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
+    h1 {
+      margin: 0 0 0.25rem;
+      font-size: clamp(1.6rem, 3vw, 2.1rem);
+      letter-spacing: 0.03em;
     }
 
-    header h1 span.logo-dot {
-      display: inline-flex;
-      width: 0.85rem;
-      height: 0.85rem;
-      border-radius: 999px;
-      background: radial-gradient(circle at 30% 0, #f9fafb, #22d3ee 45%, #0ea5e9 75%);
-      box-shadow:
-        0 0 0 3px rgba(56, 189, 248, 0.2),
-        0 0 15px rgba(56, 189, 248, 0.7);
-    }
-
-    header p {
+    .subtitle {
       margin: 0;
       font-size: 0.9rem;
-      color: var(--muted);
+      color: var(--text-muted);
     }
 
-    .controls {
+    main {
+      flex: 1;
+      width: 100%;
+      max-width: 1100px;
+      margin: 0 auto 2rem;
+      padding: 0 1.25rem 2rem;
+    }
+
+    .panel {
+      background: linear-gradient(145deg, rgba(15,23,42,0.96), rgba(15,23,42,0.99));
+      border-radius: 1rem;
+      border: 1px solid rgba(148,163,184,0.15);
+      box-shadow: 0 18px 45px rgba(15,23,42,0.8);
+      padding: 1rem 1rem 1.25rem;
+      backdrop-filter: blur(18px);
+    }
+
+    .filters {
       display: flex;
       flex-wrap: wrap;
       gap: 0.75rem;
       align-items: center;
-      margin-bottom: 1.25rem;
+      margin-bottom: 0.75rem;
     }
 
-    .controls-group {
+    .filters-group {
       display: flex;
       flex-wrap: wrap;
       gap: 0.5rem;
-      align-items: center;
+      flex: 1 1 260px;
+      min-width: 0;
     }
 
-    .pill {
-      border-radius: 999px;
-      border: 1px solid var(--border);
-      padding: 0.35rem 0.75rem;
-      font-size: 0.8rem;
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
-      background: rgba(15, 23, 42, 0.95);
-    }
-
-    .pill-label {
-      font-size: 0.78rem;
+    label {
+      font-size: 0.75rem;
       text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--muted);
+      letter-spacing: 0.09em;
+      color: var(--text-muted);
+      display: block;
+      margin-bottom: 0.25rem;
     }
 
     select,
     input[type="search"] {
-      background: #020617;
+      width: 100%;
+      padding: 0.45rem 0.6rem;
       border-radius: 999px;
-      border: 1px solid var(--border);
+      border: 1px solid rgba(148,163,184,0.35);
+      background: rgba(15,23,42,0.95);
       color: var(--text);
-      padding: 0.35rem 0.75rem;
       font-size: 0.85rem;
       outline: none;
-      min-width: 10rem;
+      transition: border-color 0.16s ease, box-shadow 0.16s ease, background 0.16s ease;
     }
 
     select:focus,
     input[type="search"]:focus {
       border-color: var(--accent);
       box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.4);
-    }
-
-    input[type="search"] {
-      min-width: 14rem;
+      background: #020617;
     }
 
     .badge {
-      padding: 0.15rem 0.5rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.15rem 0.6rem;
       border-radius: 999px;
       font-size: 0.7rem;
+      border: 1px solid rgba(148,163,184,0.4);
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+
+    .badge-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 999px;
+      background: var(--accent);
+      box-shadow: 0 0 8px rgba(56,189,248,0.8);
+    }
+
+    .table-wrapper {
+      margin-top: 0.5rem;
+      border-radius: 0.75rem;
+      border: 1px solid rgba(31,41,55,0.9);
+      overflow: hidden;
+      background: radial-gradient(circle at top left, rgba(15,23,42,0.96), rgba(2,6,23,0.98));
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.82rem;
+    }
+
+    thead {
+      background: radial-gradient(circle at top right, rgba(15,23,42,0.9), rgba(15,23,42,0.98));
+    }
+
+    th,
+    td {
+      padding: 0.6rem 0.75rem;
+      text-align: left;
+      border-bottom: 1px solid rgba(15,23,42,0.95);
+    }
+
+    th {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      font-size: 0.75rem;
       text-transform: uppercase;
-      letter-spacing: 0.08em;
-      border: 1px solid rgba(148, 163, 184, 0.35);
-      color: var(--muted);
+      letter-spacing: 0.09em;
+      color: var(--text-muted);
+      background: rgba(15,23,42,0.98);
     }
 
-    .badge-series {
-      border-color: rgba(56, 189, 248, 0.5);
-      color: #e0f2fe;
-      background: rgba(15, 23, 42, 0.9);
+    tbody tr:nth-child(even) {
+      background: rgba(15,23,42,0.96);
     }
 
-    .summary {
-      font-size: 0.8rem;
-      color: var(--muted);
-      margin-bottom: 0.75rem;
-      display: flex;
-      justify-content: space-between;
-      gap: 0.5rem;
-      flex-wrap: wrap;
+    tbody tr:nth-child(odd) {
+      background: rgba(8,17,35,0.96);
     }
 
-    .summary strong {
-      color: #e5e7eb;
+    tbody tr:hover {
+      background: rgba(15,23,42,1);
     }
 
-    .events {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr);
-      gap: 0.75rem;
+    .col-date {
+      white-space: nowrap;
+      font-variant-numeric: tabular-nums;
     }
 
-    @media (min-width: 750px) {
-      .events {
-        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-      }
+    .col-seminar {
+      font-weight: 500;
     }
 
-    .event-card {
-      position: relative;
-      border-radius: var(--radius);
-      border: 1px solid rgba(31, 41, 55, 0.9);
-      background:
-        radial-gradient(circle at 0 0, rgba(56, 189, 248, 0.15), transparent 55%),
-        linear-gradient(145deg, rgba(15, 23, 42, 0.97), rgba(15, 23, 42, 0.98));
-      padding: 0.85rem 0.9rem 0.9rem;
-      display: flex;
-      flex-direction: column;
-      gap: 0.45rem;
+    .col-title {
+      max-width: 280px;
+    }
+
+    .col-title span {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
       overflow: hidden;
     }
 
-    .event-card::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      border-radius: inherit;
-      border: 1px solid rgba(148, 163, 184, 0.12);
-      pointer-events: none;
+    .col-speaker {
+      max-width: 190px;
     }
 
-    .event-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      gap: 0.75rem;
-    }
-
-    .event-date {
-      font-size: 0.78rem;
-      font-weight: 500;
-      color: #e5e7eb;
-    }
-
-    .event-time {
-      font-size: 0.8rem;
-      color: var(--muted);
-    }
-
-    .event-title {
-      margin: 0;
-      font-size: 0.95rem;
-      font-weight: 600;
-      color: #f9fafb;
-    }
-
-    .event-speaker {
-      font-size: 0.8rem;
-      color: var(--muted);
-    }
-
-    .event-meta {
+    .btn-row {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.4rem 0.6rem;
-      align-items: center;
-      font-size: 0.75rem;
-      color: var(--muted);
+      gap: 0.25rem;
     }
 
-    .event-meta span {
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.25rem 0.6rem;
+      border-radius: 999px;
+      font-size: 0.72rem;
+      text-decoration: none;
+      border: 1px solid rgba(148,163,184,0.6);
+      color: var(--text);
+      background: radial-gradient(circle at top, rgba(15,23,42,0.9), rgba(15,23,42,0.98));
+      cursor: pointer;
+      white-space: nowrap;
+      transition: border-color 0.18s ease, background 0.18s ease, transform 0.1s ease;
+    }
+
+    .btn-primary {
+      border-color: rgba(56,189,248,0.8);
+      background: linear-gradient(135deg, rgba(56,189,248,0.18), rgba(56,189,248,0.06));
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      border-color: var(--accent);
+      background: linear-gradient(145deg, rgba(15,23,42,1), rgba(15,23,42,0.98));
+    }
+
+    .btn:active {
+      transform: translateY(0);
+    }
+
+    .empty {
+      text-align: center;
+      padding: 1.5rem 0.75rem;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    .pill-info {
+      margin-top: 0.4rem;
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .pill-info span {
       display: inline-flex;
       align-items: center;
       gap: 0.3rem;
     }
 
-    .event-meta svg {
-      width: 0.85rem;
-      height: 0.85rem;
-      opacity: 0.72;
-    }
-
-    a.event-link {
-      margin-top: 0.2rem;
-      font-size: 0.78rem;
-      color: #bae6fd;
-      text-decoration: none;
-      display: inline-flex;
-      align-items: center;
-      gap: 0.2rem;
-    }
-
-    a.event-link span.chevron {
-      font-size: 0.8em;
-      transform: translateY(1px);
-    }
-
-    a.event-link:hover {
-      text-decoration: underline;
-    }
-
-    .empty-state {
-      padding: 1.5rem;
-      border-radius: 1rem;
-      border: 1px dashed var(--border);
-      background: rgba(15, 23, 42, 0.8);
-      font-size: 0.9rem;
-      color: var(--muted);
-    }
-
-    .tag-pill {
-      padding: 0.15rem 0.5rem;
+    .pill-dot {
+      width: 6px;
+      height: 6px;
       border-radius: 999px;
-      border: 1px solid rgba(148, 163, 184, 0.6);
-      font-size: 0.7rem;
-      background: rgba(15, 23, 42, 0.8);
-      color: var(--muted);
+      background: rgba(148,163,184,0.8);
+    }
+
+    @media (max-width: 800px) {
+      th:nth-child(5),
+      td:nth-child(5) {
+        display: none;
+      }
+    }
+
+    @media (max-width: 640px) {
+      th:nth-child(6),
+      td:nth-child(6) {
+        display: none;
+      }
+
+      .filters {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .filters-group {
+        flex: 1 1 auto;
+      }
+
+      main {
+        padding-inline: 0.75rem;
+      }
+
+      header {
+        padding-inline: 0.75rem;
+      }
     }
   </style>
 </head>
 <body>
-  <main class="app">
-    <header>
-      <div>
-        <h1><span class="logo-dot"></span>Goethe Econ Seminars</h1>
-        <p>Upcoming research seminars &amp; brown-bags across Finance, Macro, EQ, MM &amp; IMFS.</p>
-      </div>
-      <div class="badge">
-        Auto-updated from department pages
-      </div>
-    </header>
+  <header>
+    <h1>Goethe Seminars</h1>
+    <p class="subtitle">Upcoming research seminars at Goethe University Frankfurt &amp; IMFS</p>
+  </header>
 
-    <section class="controls">
-      <div class="controls-group">
-        <span class="pill">
-          <span class="pill-label">Series</span>
-          <select id="seriesFilter">
-            <option value="all">All series</option>
-          </select>
-        </span>
-
-        <span class="pill">
-          <span class="pill-label">Search</span>
-          <input
-            id="searchInput"
-            type="search"
-            placeholder="Speaker, title, series, location..."
-            autocomplete="off"
-          />
-        </span>
+  <main>
+    <section class="panel">
+      <div class="filters">
+        <div class="filters-group">
+          <div style="flex: 1 1 180px; min-width: 0;">
+            <label for="seminarFilter">Seminar series</label>
+            <select id="seminarFilter">
+              <option value="all">All seminar series</option>
+            </select>
+          </div>
+          <div style="flex: 1 1 180px; min-width: 0;">
+            <label for="searchInput">Search (speaker, title, location)</label>
+            <input id="searchInput" type="search" placeholder="Type to filter…" />
+          </div>
+        </div>
+        <div class="badge">
+          <span class="badge-dot"></span>
+          <span id="countBadge">Loading events…</span>
+        </div>
       </div>
 
-      <div class="controls-group">
-        <span class="pill">
-          <span class="pill-label">Sort</span>
-          <select id="sortOrder">
-            <option value="time">Soonest first</option>
-            <option value="series">By series, then time</option>
-          </select>
-        </span>
+      <div class="pill-info">
+        <span><span class="pill-dot"></span> Only future talks are shown</span>
+        <span><span class="pill-dot"></span> Times and rooms are indicative — always double-check the seminar page</span>
+      </div>
+
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Seminar</th>
+              <th>Speaker</th>
+              <th>Title</th>
+              <th>Time</th>
+              <th>Location</th>
+              <th>Links</th>
+            </tr>
+          </thead>
+          <tbody id="eventsBody">
+            <tr>
+              <td colspan="7" class="empty">Loading…</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </section>
-
-    <div class="summary">
-      <span id="summaryCount">Loading events…</span>
-      <span id="summaryNext"></span>
-    </div>
-
-    <section id="events" class="events"></section>
-
-    <div class="empty-state" id="emptyState" style="display:none;">
-      No matching events. Try clearing filters or broadening your search.
-    </div>
   </main>
 
   <script>
-    const state = {
-      events: [],
-      filtered: [],
-      series: new Set(),
-      seriesFilter: "all",
-      searchQuery: "",
-      sortOrder: "time",
-    };
+    const eventsBody = document.getElementById("eventsBody");
+    const seminarFilter = document.getElementById("seminarFilter");
+    const searchInput = document.getElementById("searchInput");
+    const countBadge = document.getElementById("countBadge");
 
-    function parseDate(iso) {
-      return new Date(iso);
+    let allEvents = [];
+
+    function formatDate(iso) {
+      if (!iso) return "";
+      const [y, m, d] = iso.split("-");
+      return `${d}.${m}.${y}`;
     }
 
-    function formatDateTime(iso) {
-      const d = parseDate(iso);
-      if (Number.isNaN(d.getTime())) return { date: iso, time: "" };
+    function buildSeminarMap(events) {
+      const map = new Map();
+      for (const ev of events) {
+        if (!map.has(ev.seminar_id)) {
+          map.set(ev.seminar_id, ev.seminar_name || ev.seminar_id);
+        }
+      }
+      return map;
+    }
 
-      const date = d.toLocaleDateString("de-DE", {
-        weekday: "short",
-        day: "2-digit",
-        month: "short",
-        year: "numeric",
-      });
-      const time = d.toLocaleTimeString("de-DE", {
-        hour: "2-digit",
-        minute: "2-digit",
-      });
-      return { date, time };
+    function populateSeminarFilter(events) {
+      const map = buildSeminarMap(events);
+      for (const [id, name] of map.entries()) {
+        const opt = document.createElement("option");
+        opt.value = id;
+        opt.textContent = name;
+        seminarFilter.appendChild(opt);
+      }
+    }
+
+    function render(events) {
+      eventsBody.innerHTML = "";
+
+      const today = new Date().toISOString().slice(0, 10);
+      const upcoming = events.filter(ev => ev.date >= today);
+
+      if (!upcoming.length) {
+        const tr = document.createElement("tr");
+        const td = document.createElement("td");
+        td.colSpan = 7;
+        td.className = "empty";
+        td.textContent = "No matching upcoming events.";
+        tr.appendChild(td);
+        eventsBody.appendChild(tr);
+        countBadge.textContent = "0 upcoming events";
+        return;
+      }
+
+      const count = upcoming.length;
+      countBadge.textContent = count === 1 ? "1 upcoming event" : `${count} upcoming events`;
+
+      for (const ev of upcoming) {
+        const tr = document.createElement("tr");
+
+        const tdDate = document.createElement("td");
+        tdDate.className = "col-date";
+        tdDate.textContent = formatDate(ev.date);
+        tr.appendChild(tdDate);
+
+        const tdSeminar = document.createElement("td");
+        tdSeminar.className = "col-seminar";
+        tdSeminar.textContent = ev.seminar_name || ev.seminar_id;
+        tr.appendChild(tdSeminar);
+
+        const tdSpeaker = document.createElement("td");
+        tdSpeaker.className = "col-speaker";
+        tdSpeaker.textContent = ev.speaker || "";
+        tr.appendChild(tdSpeaker);
+
+        const tdTitle = document.createElement("td");
+        tdTitle.className = "col-title";
+        const titleSpan = document.createElement("span");
+        titleSpan.textContent = ev.title || "";
+        tdTitle.appendChild(titleSpan);
+        tr.appendChild(tdTitle);
+
+        const tdTime = document.createElement("td");
+        tdTime.textContent = ev.time_info || "";
+        tr.appendChild(tdTime);
+
+        const tdLocation = document.createElement("td");
+        tdLocation.textContent = ev.location || "";
+        tr.appendChild(tdLocation);
+
+        const tdLinks = document.createElement("td");
+        const btnRow = document.createElement("div");
+        btnRow.className = "btn-row";
+
+        if (ev.details_url) {
+          const details = document.createElement("a");
+          details.href = ev.details_url;
+          details.target = "_blank";
+          details.rel = "noopener noreferrer";
+          details.className = "btn btn-primary";
+          details.textContent = "Talk details";
+          btnRow.appendChild(details);
+        }
+
+        // IMPORTANT: this is the fix – use seminar_page, not the current page
+        const seminarPageUrl = ev.seminar_page || ev.details_url;
+        if (seminarPageUrl) {
+          const series = document.createElement("a");
+          series.href = seminarPageUrl;
+          series.target = "_blank";
+          series.rel = "noopener noreferrer";
+          series.className = "btn";
+          series.textContent = "Open seminar page";
+          btnRow.appendChild(series);
+        }
+
+        tdLinks.appendChild(btnRow);
+        tr.appendChild(tdLinks);
+
+        eventsBody.appendChild(tr);
+      }
     }
 
     function applyFilters() {
-      const { events, seriesFilter, searchQuery, sortOrder } = state;
-      const q = searchQuery.trim().toLowerCase();
+      const q = (searchInput.value || "").trim().toLowerCase();
+      const seminarId = seminarFilter.value || "all";
 
-      let filtered = events.filter((e) => {
-        if (seriesFilter !== "all" && e.series !== seriesFilter) return false;
-        if (!q) return true;
+      let filtered = allEvents.slice();
 
-        const haystack = [
-          e.series,
-          e.speaker,
-          e.title,
-          e.location,
-          e.extra_info,
-          e.raw,
-        ]
-          .filter(Boolean)
-          .join(" ")
-          .toLowerCase();
+      if (seminarId !== "all") {
+        filtered = filtered.filter(ev => ev.seminar_id === seminarId);
+      }
 
-        return haystack.includes(q);
-      });
-
-      if (sortOrder === "time") {
-        filtered.sort(
-          (a, b) => new Date(a.datetime).getTime() - new Date(b.datetime).getTime()
-        );
-      } else if (sortOrder === "series") {
-        filtered.sort((a, b) => {
-          const s = a.series.localeCompare(b.series);
-          if (s !== 0) return s;
-          return new Date(a.datetime).getTime() - new Date(b.datetime).getTime();
+      if (q) {
+        filtered = filtered.filter(ev => {
+          return (
+            (ev.title && ev.title.toLowerCase().includes(q)) ||
+            (ev.speaker && ev.speaker.toLowerCase().includes(q)) ||
+            (ev.location && ev.location.toLowerCase().includes(q)) ||
+            (ev.seminar_name && ev.seminar_name.toLowerCase().includes(q))
+          );
         });
       }
 
-      state.filtered = filtered;
-      render();
+      filtered.sort((a, b) => a.date.localeCompare(b.date));
+      render(filtered);
     }
 
-    function render() {
-      const eventsEl = document.getElementById("events");
-      const emptyEl = document.getElementById("emptyState");
-      const summaryCount = document.getElementById("summaryCount");
-      const summaryNext = document.getElementById("summaryNext");
+    seminarFilter.addEventListener("change", applyFilters);
+    searchInput.addEventListener("input", applyFilters);
 
-      eventsEl.innerHTML = "";
-
-      if (!state.filtered.length) {
-        emptyEl.style.display = "block";
-        summaryCount.textContent = "No upcoming events";
-        summaryNext.textContent = "";
-        return;
-      } else {
-        emptyEl.style.display = "none";
-      }
-
-      summaryCount.textContent = `${state.filtered.length} upcoming event${
-        state.filtered.length === 1 ? "" : "s"
-      }`;
-
-      const next = state.filtered[0];
-      if (next) {
-        const { date, time } = formatDateTime(next.datetime);
-        summaryNext.textContent = `Next: ${date}${
-          time ? " · " + time : ""
-        } · ${next.speaker || ""} (${next.series})`;
-      } else {
-        summaryNext.textContent = "";
-      }
-
-      for (const e of state.filtered) {
-        const { date, time } = formatDateTime(e.datetime);
-        const card = document.createElement("article");
-        card.className = "event-card";
-
-        const header = document.createElement("div");
-        header.className = "event-header";
-
-        const left = document.createElement("div");
-        const dateEl = document.createElement("div");
-        dateEl.className = "event-date";
-        dateEl.textContent = date;
-        const timeEl = document.createElement("div");
-        timeEl.className = "event-time";
-        timeEl.textContent = time || "";
-
-        left.appendChild(dateEl);
-        left.appendChild(timeEl);
-
-        const seriesEl = document.createElement("div");
-        seriesEl.className = "badge badge-series";
-        seriesEl.textContent = e.series;
-
-        header.appendChild(left);
-        header.appendChild(seriesEl);
-
-        const titleEl = document.createElement("h2");
-        titleEl.className = "event-title";
-        titleEl.textContent = e.title || e.raw || "(no title yet)";
-
-        const speakerEl = document.createElement("div");
-        speakerEl.className = "event-speaker";
-        speakerEl.textContent = e.speaker || "";
-
-        const meta = document.createElement("div");
-        meta.className = "event-meta";
-
-        if (e.location) {
-          const loc = document.createElement("span");
-          loc.innerHTML =
-            '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.7 2 6 4.7 6 8c0 4.3 4.3 9.4 5.1 9.7.2.2.5.3.9.3s.7-.1.9-.3C13.2 17.4 18 12.3 18 8c0-3.3-2.7-6-6-6zm0 11c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4z"></path></svg>' +
-            (e.location || "");
-          meta.appendChild(loc);
+    fetch("events.json", { cache: "no-store" })
+      .then(resp => {
+        if (!resp.ok) throw new Error("Failed to load events.json");
+        return resp.json();
+      })
+      .then(data => {
+        if (!Array.isArray(data)) {
+          throw new Error("events.json must contain an array");
         }
-
-        const campus = document.createElement("span");
-        campus.innerHTML =
-          '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9.5 12 4l9 5.5-9 5.5L3 9.5zm2 4L12 18l7-4.5V16l-7 4-7-4v-2.5z"></path></svg>' +
-          "Campus Westend";
-        meta.appendChild(campus);
-
-        const link = document.createElement("a");
-        link.className = "event-link";
-        link.href = e.source_url || "#";
-        link.target = "_blank";
-        link.rel = "noopener noreferrer";
-        link.innerHTML =
-          '<span>Open seminar page</span><span class="chevron">↗</span>';
-
-        card.appendChild(header);
-        card.appendChild(titleEl);
-        if (e.speaker) card.appendChild(speakerEl);
-        card.appendChild(meta);
-        card.appendChild(link);
-
-        eventsEl.appendChild(card);
-      }
-    }
-
-    async function bootstrap() {
-      try {
-        const res = await fetch("events.json", {
-          cache: "no-cache",
-        });
-        if (!res.ok) throw new Error("Failed to load events.json");
-        const data = await res.json();
-        state.events = data;
-        state.filtered = data.slice();
-
-        // Collect series for filter dropdown
-        data.forEach((e) => state.series.add(e.series));
-        const seriesSelect = document.getElementById("seriesFilter");
-        [...state.series].sort().forEach((s) => {
-          const opt = document.createElement("option");
-          opt.value = s;
-          opt.textContent = s;
-          seriesSelect.appendChild(opt);
-        });
-
+        allEvents = data;
+        allEvents.sort((a, b) => a.date.localeCompare(b.date));
+        populateSeminarFilter(allEvents);
         applyFilters();
-      } catch (err) {
+      })
+      .catch(err => {
         console.error(err);
-        document.getElementById("summaryCount").textContent =
-          "Could not load events.json";
-      }
-    }
-
-    document.addEventListener("DOMContentLoaded", () => {
-      const seriesSelect = document.getElementById("seriesFilter");
-      const searchInput = document.getElementById("searchInput");
-      const sortOrder = document.getElementById("sortOrder");
-
-      seriesSelect.addEventListener("change", (e) => {
-        state.seriesFilter = e.target.value;
-        applyFilters();
+        eventsBody.innerHTML = "";
+        const tr = document.createElement("tr");
+        const td = document.createElement("td");
+        td.colSpan = 7;
+        td.className = "empty";
+        td.textContent = "Could not load events. Please try again later.";
+        tr.appendChild(td);
+        eventsBody.appendChild(tr);
+        countBadge.textContent = "Error loading events";
       });
-
-      searchInput.addEventListener("input", (e) => {
-        state.searchQuery = e.target.value;
-        applyFilters();
-      });
-
-      sortOrder.addEventListener("change", (e) => {
-        state.sortOrder = e.target.value;
-        applyFilters();
-      });
-
-      bootstrap();
-    });
   </script>
 </body>
 </html>
