@@ -21,7 +21,6 @@ All pages are scraped regularly by a GitHub Action which regenerates `events.jso
 - `index.html` – static dashboard that reads `events.json` and displays the events
 - `requirements.txt` – Python dependencies for the scraper
 - `.github/workflows/update-events.yml` – GitHub Actions workflow to run the scraper on a schedule
-- `.github/workflows/preview-site.yml` – GitHub Actions workflow that builds a preview of the website for pull requests
 
 ## Local development
 
@@ -31,9 +30,3 @@ source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
 python scraper.py  # generates events.json
-
-```
-
-## Previewing pull requests
-
-Every pull request automatically runs the **Preview website** workflow. Once the job finishes, open the deployment that appears in the pull request checks ("View deployment") to browse the generated site with the branch's changes before merging. Each build publishes as a GitHub Pages **preview** deployment on a branch-scoped **Preview website (<branch>)** environment, so production rules that restrict the `github-pages` environment to `main` won't block branch builds. You can also trigger the workflow manually from the **Actions** tab via **Run workflow**.
