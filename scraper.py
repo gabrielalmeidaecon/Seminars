@@ -6,7 +6,7 @@ from typing import List, Dict
 from urllib.parse import urljoin
 
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString, Tag
 
 IMFS_URL = "https://www.imfs-frankfurt.de/veranstaltungen/alle-kommenden-veranstaltungen"
 
@@ -292,190 +292,118 @@ def scrape_wiwi_table(cfg: Dict) -> List[Dict]:
     return events
 
 
-LABEL_PATTERNS = [
-    (re.compile(r"^(?:Speaker|Referent(?:in)?|Sprecher(?:in)?)[\s:–-]+", re.IGNORECASE), "speaker"),
-    (re.compile(r"^(?:Topic|Titel|Title|Subject)[\s:–-]+", re.IGNORECASE), "title"),
-    (re.compile(r"^(?:Time|Uhrzeit|Zeit|Wann)[\s:–-]+", re.IGNORECASE), "time"),
-    (re.compile(r"^(?:Location|Ort|Place|Wo)[\s:–-]+", re.IGNORECASE), "location"),
-    (re.compile(r"^(?:Date|Datum)[\s:–-]+", re.IGNORECASE), "date"),
-]
-
-META_FIELD_PATTERN = re.compile(
-    r"\b(speaker|referent(?:in)?|titel|topic|time|uhrzeit|location|ort|datum)\b",
-    re.IGNORECASE,
-)
-
-META_SKIP_PATTERN = re.compile(
-    r"\b(speaker|referent(?:in)?|titel|topic|time|uhrzeit|location|ort|datum|mehr|more|kontakt|contact|register|registration)\b",
-    re.IGNORECASE,
-)
-
-
-def _strip_label(line: str, regex: re.Pattern[str]) -> str:
-    match = regex.match(line)
-    if match:
-        return line[match.end() :].strip()
-    return line.strip()
-
-
-def _looks_like_time(line: str) -> bool:
-    return bool(re.search(r"\d{1,2}:\d{2}", line))
-
-
-def _is_event_heading(line: str) -> bool:
-    lower = line.lower()
-    if "working lunch" in lower or "policy lecture" in lower:
-        return True
-    if "imfs" in lower and any(keyword in lower for keyword in ("lecture", "lunch", "seminar", "talk", "veranstaltung")):
-        return True
-    return False
-
-
-def _extract_blocks(lines: List[str]) -> List[List[str]]:
-    blocks: List[List[str]] = []
-    current: List[str] = []
-
-    for line in lines:
-        if not line:
-            continue
-        if _is_event_heading(line):
-            if current:
-                blocks.append(current)
-            current = [line]
-        else:
-            if current:
-                current.append(line)
-
-    if current:
-        blocks.append(current)
-
-    return blocks
-
-
 def scrape_imfs() -> List[Dict]:
     """Parse IMFS upcoming events page into structured events."""
 
     soup = fetch(IMFS_URL)
-    text = soup.get_text("\n")
-    lines = [re.sub(r"\s+", " ", ln).strip() for ln in text.splitlines()]
+    content = soup.select_one(".page-content")
+    if not content:
+        return []
 
     events: List[Dict] = []
 
-    for block in _extract_blocks(lines):
-        if not block:
+    for frame in content.select("div.frame-type-text"):
+        heading = frame.find("h2")
+        if not heading:
             continue
 
-        labelled: Dict[str, str] = {}
-        for regex, key in LABEL_PATTERNS:
-            for line in block:
-                if regex.match(line):
-                    labelled[key] = _strip_label(line, regex)
+        seminar_name_raw = heading.get_text(" ", strip=True)
+        if not seminar_name_raw:
+            continue
 
-        parsed_date: date | None = None
-        raw_date = ""
-        raw_date_line = ""
-        for line in block:
-            candidate = _extract_date_candidate(line)
-            try:
-                parsed_date = parse_date(candidate)
-                raw_date = candidate
-                raw_date_line = line
+        paragraphs = frame.find_all("p")
+        if not paragraphs:
+            continue
+
+        first_paragraph = paragraphs[0]
+
+        speaker_parts: List[str] = []
+        for child in first_paragraph.children:
+            if isinstance(child, Tag) and child.name.lower() in {"br", "i"}:
                 break
-            except ValueError:
-                continue
+            if isinstance(child, NavigableString):
+                text = child.strip()
+            else:
+                text = child.get_text(" ", strip=True)
+            if text:
+                speaker_parts.append(text.strip(" ,"))
 
-        if parsed_date is None:
+        speaker = re.sub(r"\s+", " ", " ".join(speaker_parts)).strip(" ,") if speaker_parts else ""
+
+        title = ""
+        title_tag = first_paragraph.find("i")
+        if title_tag:
+            title = title_tag.get_text(" ", strip=True).strip('"“”')
+        else:
+            after_break: List[str] = []
+            seen_break = False
+            for child in first_paragraph.children:
+                if isinstance(child, Tag) and child.name.lower() == "br":
+                    seen_break = True
+                    continue
+                if not seen_break:
+                    continue
+                if isinstance(child, NavigableString):
+                    text = child.strip()
+                else:
+                    text = child.get_text(" ", strip=True)
+                if text:
+                    after_break.append(text)
+            if after_break:
+                title = after_break[0].strip('"“”')
+
+        second_paragraph = paragraphs[1] if len(paragraphs) > 1 else None
+
+        raw_date = ""
+        date_iso = ""
+        time_info = ""
+        location_parts: List[str] = []
+
+        if second_paragraph:
+            strongs = second_paragraph.find_all("strong")
+            if strongs:
+                raw_date_text = strongs[0].get_text(" ", strip=True)
+                candidate = _extract_date_candidate(raw_date_text)
+                try:
+                    date_iso = parse_date(candidate).isoformat()
+                    raw_date = raw_date_text
+                except ValueError:
+                    date_iso = ""
+
+                if len(strongs) > 1:
+                    time_info = re.sub(r"\bUhr\b", "", strongs[1].get_text(" ", strip=True), flags=re.IGNORECASE).strip()
+
+                for st in strongs:
+                    st.extract()
+
+            for item in second_paragraph.stripped_strings:
+                text = item.strip()
+                if text:
+                    location_parts.append(text)
+
+        if not date_iso:
             continue
 
-        time_info = labelled.get("time", "")
-        time_line = ""
-        if not time_info:
-            for line in block:
-                if _looks_like_time(line):
-                    time_info = re.sub(r"\bUhr\b", "", line, flags=re.IGNORECASE).strip()
-                    time_line = line
-                    break
+        location = ", ".join(location_parts)
 
-        seminar_name = block[0]
-        if "working lunch" in seminar_name.lower():
+        seminar_display = seminar_name_raw
+        lower_name = seminar_display.lower()
+        if "working lunch" in lower_name:
             seminar_display = "IMFS Working Lunch"
-        elif "policy lecture" in seminar_name.lower():
+        elif "policy lecture" in lower_name:
             seminar_display = "IMFS Policy Lecture"
-        else:
-            seminar_display = "IMFS Event"
-
-        speaker = labelled.get("speaker", "")
-        title = labelled.get("title", "")
-
-        heading_lower = seminar_name.lower()
-        if (" with " in heading_lower or " mit " in heading_lower) and not speaker:
-            if " with " in heading_lower:
-                before, after = re.split(r"\bwith\b", seminar_name, maxsplit=1, flags=re.IGNORECASE)
-            else:
-                before, after = re.split(r"\bmit\b", seminar_name, maxsplit=1, flags=re.IGNORECASE)
-            if before:
-                seminar_display = before.strip()
-            speaker = after.strip()
 
         if not speaker:
-            for line in block[1:]:
-                lower = line.lower()
-                if lower == raw_date_line.lower() or line == time_line:
-                    continue
-                if lower.startswith("speaker") or lower.startswith("referent") or lower.startswith("sprecher"):
-                    speaker = _strip_label(line, LABEL_PATTERNS[0][0])
-                    break
-                if " with " in lower and "imfs" in seminar_name.lower():
-                    speaker = line.split(" with ", 1)[1].strip()
-                    break
-                if " mit " in lower and "imfs" in seminar_name.lower():
-                    speaker = line.split(" mit ", 1)[1].strip()
-                    break
-
-        if not title:
-            for line in block[1:]:
-                lower = line.lower()
-                if lower == raw_date_line.lower() or line == time_line:
-                    continue
-                if META_FIELD_PATTERN.search(line):
-                    continue
-                if _looks_like_time(line):
-                    continue
-                if line == raw_date_line:
-                    continue
-                if re.search(r"\d{4}", line) and any(ch.isdigit() for ch in line):
-                    continue
-                title = line.strip('"“”')
-                break
-
-        location = labelled.get("location", "")
-        if not location:
-            location_candidates: List[str] = []
-            for line in block[1:]:
-                lower = line.lower()
-                if lower == raw_date_line.lower() or line == time_line:
-                    continue
-                if META_SKIP_PATTERN.search(line):
-                    continue
-                if _looks_like_time(line):
-                    continue
-                if line == raw_date_line:
-                    continue
-                if title and line.strip('"“”') == title:
-                    continue
-                if re.search(r"\d{4}", line) and any(ch.isdigit() for ch in line):
-                    # likely another date line
-                    continue
-                if re.search(r"working lunch|policy lecture", lower):
-                    continue
-                location_candidates.append(line)
-            if location_candidates:
-                location = ", ".join(location_candidates[-2:]) if len(location_candidates) > 1 else location_candidates[0]
-
-        speaker = speaker.strip('"“”')
-        title = title.strip('"“”')
+            speaker = ""
         if not title:
             title = seminar_display
+
+        details_url = IMFS_URL
+        link = frame.find("a", href=True)
+        if link:
+            href = link["href"]
+            if not href.lower().startswith("mailto:"):
+                details_url = urljoin(IMFS_URL, href)
 
         events.append(
             {
@@ -484,11 +412,11 @@ def scrape_imfs() -> List[Dict]:
                 "seminar_page": IMFS_URL,
                 "title": title,
                 "speaker": speaker,
-                "date": parsed_date.isoformat(),
+                "date": date_iso,
                 "raw_date": raw_date,
                 "time_info": time_info,
                 "location": location,
-                "details_url": IMFS_URL,
+                "details_url": details_url,
                 "source": "IMFS Frankfurt",
             }
         )
