@@ -1,23 +1,5 @@
 [
   {
-    "seminar_id": "finance_seminar",
-    "seminar_name": "Finance Seminar Series",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar.html",
-    "title": "Inflation and Floating-Rate Loans: Evidence from the Euro-Area",
-    "speaker": "Glenn Schepens, ECB",
-    "speaker_url": "https://www.ecb.europa.eu/pub/research/authors/profiles/glenn-schepens.en.html",
-    "date": "2025-11-25",
-    "raw_date": "25 November 2025",
-    "time_info": "12:00–13:15",
-    "start_time": "12:00",
-    "end_time": "13:15",
-    "location": "HoF E.01 / Deutsche Bank room",
-    "description": "Inflation and Floating-Rate Loans: Evidence from the Euro-Area\nwith Fabrizio Core, Filippo De Marco, Tim Eisert\nAbstract:\nWe provide novel evidence on the supply-side transmission of monetary policy through a floating-rate channel. After a rate hike, firms with floating-rate loans keep prices elevated to offset higher borrowing costs, thereby reducing the effectiveness of monetary policy. Using monthly data on product-level prices, industry-level inflation rates and the euro-area credit register from 2021 to 2023, we find that the short-run impact of monetary tightening on inflation is 50% smaller when firms rely on floating-rate loans. This effect is stronger for firms that rely more on working capital to finance production and when they can easily pass on higher prices to their sticky customer base (customer capital). To address the selection of firms into floating-rate loans, we exploit bank-side factors in the lending relationship. Firms more exposed to floating-rate loans increase their mark-ups more during the rate tightening, but also see higher funding costs. Overall, if firms across the euro area had a lower reliance on floating-rate loans, inflation would have been 0.8 percentage points lower in 2022-2023.\nPaper",
-    "description_html": "<p><strong>Inflation and Floating-Rate Loans: Evidence from the Euro-Area </strong></p>\n<p> with Fabrizio Core, Filippo De Marco, Tim Eisert </p>\n<p><strong>Abstract: </strong></p>\n<p> We provide novel evidence on the supply-side transmission of monetary policy through a floating-rate channel. After a rate hike, firms with floating-rate loans keep prices elevated to offset higher borrowing costs, thereby reducing the effectiveness of monetary policy. Using monthly data on product-level prices, industry-level inflation rates and the euro-area credit register from 2021 to 2023, we find that the short-run impact of monetary tightening on inflation is 50% smaller when firms rely on floating-rate loans. This effect is stronger for firms that rely more on working capital to finance production and when they can easily pass on higher prices to their sticky customer base (customer capital). To address the selection of firms into floating-rate loans, we exploit bank-side factors in the lending relationship. Firms more exposed to floating-rate loans increase their mark-ups more during the rate tightening, but also see higher funding costs. Overall, if firms across the euro area had a lower reliance on floating-rate loans, inflation would have been 0.8 percentage points lower in 2022-2023.</p>\n<p><a class=\"download\" href=\"fileadmin/user_upload/dateien_abteilungen/abt_fin/Dokumente/PDFs/Finance_Seminar_Papers/CDES_OCt25.pdf\" target=\"_blank\" title=\"Initiates file download\">Paper</a></p>\n<p> </p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar/calendar-details/cal/event/tx_cal_phpicalendar/2025/11/25/2096.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "qep",
     "seminar_name": "Quantitative Economic Policy Seminar",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/eq/seminars/quantitative-economic-policy-seminar.html",
@@ -303,6 +285,24 @@
     "description": "Title:\nToward the Unconventional: The Evolution of VC Preferences for Atypical Ventures\nAbstract:\nLiteratures on categorization and strategic differentiation suggest that the effectiveness of an atypical identity or distinct market positioning depends on the preferences of the evaluative audience. However, these preferences are often treated as stable, with heterogeneity assumed only between audiences rather than evolving within them. Our study aims to explain how preferences for atypicality might evolve among venture capitalists, using data on startups and their investments from PitchBook and Crunchbase. We distinguish between two complementary lenses: an experiential perspective, focusing on how prior investment experiences could shape subsequent choices, and a socially constructed perspective, focusing on how network exposure and field embeddedness may influence investment patterns. Our study suggests that VCs’ preferences for unconventional ventures may change over time, indicating that audience preferences are dynamic and context-dependent, rather than fixed markers of evaluation.",
     "description_html": "<p><strong>Title:</strong> Toward the Unconventional: The Evolution of VC Preferences for Atypical Ventures</p>\n<p><strong>Abstract:</strong> Literatures on categorization and strategic differentiation suggest that the effectiveness of an atypical identity or distinct market positioning depends on the preferences of the evaluative audience. However, these preferences are often treated as stable, with heterogeneity assumed only between audiences rather than evolving within them. Our study aims to explain how preferences for atypicality might evolve among venture capitalists, using data on startups and their investments from PitchBook and Crunchbase. We distinguish between two complementary lenses: an experiential perspective, focusing on how prior investment experiences could shape subsequent choices, and a socially constructed perspective, focusing on how network exposure and field embeddedness may influence investment patterns. Our study suggests that VCs’ preferences for unconventional ventures may change over time, indicating that audience preferences are dynamic and context-dependent, rather than fixed markers of evaluation.</p>",
     "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/amos/calendar-details-mm-seminar/cal/event/tx_cal_phpicalendar/2026/01/21/2141.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
+    "seminar_id": "mm_brownbag",
+    "seminar_name": "Management & Microeconomics Brown Bag",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
+    "title": "TBA",
+    "speaker": "Jan Reitz",
+    "speaker_url": "",
+    "date": "2026-01-22",
+    "raw_date": "22 January 2026",
+    "time_info": "12:30–13:30",
+    "start_time": "12:30",
+    "end_time": "13:30",
+    "location": "RuW 4.201",
+    "description": "",
+    "description_html": "",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar/calendar-details-mm-bb/cal/event/tx_cal_phpicalendar/2026/01/22/2156.html",
     "source": "Goethe University Frankfurt"
   },
   {
