@@ -338,7 +338,7 @@
     "location": "HoF E.20 (DZ Bank)",
     "description": "Abstract:\ntba.",
     "description_html": "<p><strong>Abstract:</strong> tba.</p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/01/28/2119.html",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/01/28/2158.html",
     "source": "Goethe University Frankfurt"
   },
   {
@@ -429,6 +429,24 @@
     "description": "Title:\ntba\nAbstract:\ntba",
     "description_html": "<p><strong>Title: </strong>tba</p>\n<p><strong>Abstract:</strong> tba</p>",
     "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar/calendar-details/cal/event/tx_cal_phpicalendar/2026/02/03/2117.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
+    "seminar_id": "finance_brownbag",
+    "seminar_name": "Finance Brown Bag",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/finance-brown-bag.html",
+    "title": "tba",
+    "speaker": "Patrick Brock (Goethe University)",
+    "speaker_url": "",
+    "date": "2026-02-04",
+    "raw_date": "04 February 2026",
+    "time_info": "14:00–15:00",
+    "start_time": "14:00",
+    "end_time": "15:00",
+    "location": "HoF E.20 (DZ Bank)",
+    "description": "Abstract:\ntba.",
+    "description_html": "<p><strong>Abstract:</strong> tba.</p>",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/02/04/2119.html",
     "source": "Goethe University Frankfurt"
   },
   {
