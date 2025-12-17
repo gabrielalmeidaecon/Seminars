@@ -18,24 +18,6 @@
     "source": "Goethe University Frankfurt"
   },
   {
-    "seminar_id": "finance_seminar",
-    "seminar_name": "Finance Seminar Series",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar.html",
-    "title": "Who Pays for Higher Energy Prices? Distributional Effects in the Housing Market",
-    "speaker": "Francisco Amaral, Universität Zürich",
-    "speaker_url": "https://www.df.uzh.ch/en/people/professor/amaral.html",
-    "date": "2025-12-02",
-    "raw_date": "02 December 2025",
-    "time_info": "12:00–13:15",
-    "start_time": "12:00",
-    "end_time": "13:15",
-    "location": "HoF E.01 / Deutsche Bank room",
-    "description": "Who Pays for Higher Energy Prices? Distributional Effects in the Housing Market\nAbstract:\nWe study how energy price shocks transmit through segmented housing markets. Using German rental listings from 2015 to 2024, we show that higher energy prices are capitalized into rents only in high-rent segments, where elastic demand pressures landlords to reduce rents for inefficient units. In low-rent segments, characterized by less elastic demand and tight markets, rents do not adjust, leaving low-income households to bear the full increase in energy bills. As a result, total housing costs for low-income households rise three times more than for high-income households when energy prices increase, amplifying existing inequality.",
-    "description_html": "<p>Who Pays for Higher Energy Prices? Distributional Effects in the Housing Market </p>\n<p><strong> Abstract: </strong></p>\n<p> We study how energy price shocks transmit through segmented housing markets. Using German rental listings from 2015 to 2024, we show that higher energy prices are capitalized into rents only in high-rent segments, where elastic demand pressures landlords to reduce rents for inefficient units. In low-rent segments, characterized by less elastic demand and tight markets, rents do not adjust, leaving low-income households to bear the full increase in energy bills. As a result, total housing costs for low-income households rise three times more than for high-income households when energy prices increase, amplifying existing inequality. </p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar/calendar-details/cal/event/tx_cal_phpicalendar/2025/12/02/2097.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "qep",
     "seminar_name": "Quantitative Economic Policy Seminar",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/eq/seminars/quantitative-economic-policy-seminar.html",
@@ -105,24 +87,6 @@
     "description": "Mortgage Structure, Financial Stability, and Risk Sharing\nwith Vadim Elenev\nAbstract:\nAdjustable-rate mortgages (ARMs) expose households to rising payments, increasing defaults, while fixed-rate mortgages (FRMs) expose lenders to greater interest rate risk. We evaluate these competing forces in a quantitative model with flexible mortgage contracts, liquidity-driven household default, and a banking sector with sticky deposits. We find financial stability risks are U-shaped in mortgage fixation length. While FRMs benefit from deposit rate stickiness, ARMs provide net worth hedging by concentrating defaults in states when intermediary net worth is high due to increases in mortgage income. An intermediate fixation length balances these effects, minimizing financial sector volatility and improving aggregate risk sharing.\nPaper",
     "description_html": "<p>Mortgage Structure, Financial Stability, and Risk Sharing</p>\n<p>with Vadim Elenev </p>\n<p><strong>Abstract:</strong></p>\n<p>Adjustable-rate mortgages (ARMs) expose households to rising payments, increasing defaults, while fixed-rate mortgages (FRMs) expose lenders to greater interest rate risk. We evaluate these competing forces in a quantitative model with flexible mortgage contracts, liquidity-driven household default, and a banking sector with sticky deposits. We find financial stability risks are U-shaped in mortgage fixation length. While FRMs benefit from deposit rate stickiness, ARMs provide net worth hedging by concentrating defaults in states when intermediary net worth is high due to increases in mortgage income. An intermediate fixation length balances these effects, minimizing financial sector volatility and improving aggregate risk sharing.</p>\n<p><a class=\"download\" href=\"fileadmin/user_upload/dateien_abteilungen/abt_fin/Dokumente/PDFs/Finance_Seminar_Papers/ElenevLiu.pdf\" title=\"Initiates file download\">Paper</a></p>",
     "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar/calendar-details/cal/event/tx_cal_phpicalendar/2025/12/16/2099.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
-    "seminar_id": "macro_seminar",
-    "seminar_name": "Macro Seminar",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar.html",
-    "title": "Changing Jobs to Fight Inflation: Labor Market Reactions to Inflationary Shocks",
-    "speaker": "Gorkem Bostanci (University of British Columbia)",
-    "speaker_url": "",
-    "date": "2025-12-16",
-    "raw_date": "16 December 2025",
-    "time_info": "14:15–15:30",
-    "start_time": "14:15",
-    "end_time": "15:30",
-    "location": "HoF E.01/Deutsche Bank",
-    "description": "Title:\nChanging Jobs to Fight Inflation: Labor Market Reactions to Inflationary Shocks (with Koru, O. and Villalvazo S.)\nAbstract:\nWe argue that inflationary shocks affect allocative efficiency by changing the rate and the characteristics of workers' job-to-job transitions. First, using monetary policy shocks and survey data on search effort, we empirically show that a one percentage point rise in inflation increases job-to-job transitions by up to 4.5%, and workers with higher inflation expectations are more likely to search and do so more effectively. Second, we build a general equilibrium model of directed on-the-job search to quantify the aggregate implications of labor market reactions. Higher-than-expected inflation reduces real wages, prompting workers to search more actively and aim lower. This increases job-to-job transitions but lowers the efficiency gains per transition. Therefore, the effect on output is ambiguous. Last, we calibrate the model to the U.S. economy. Inflationary shocks increase reallocation rates, yet allocative efficiency and output decline. Small deflationary shocks (e.g., 2%) increase output in the short run, while others decrease it.",
-    "description_html": "<p><strong>Title: </strong>Changing Jobs to Fight Inflation: Labor Market Reactions to Inflationary Shocks (with Koru, O. and Villalvazo S.)  </p>\n<p><strong>Abstract:</strong> We argue that inflationary shocks affect allocative efficiency by changing the rate and the characteristics of workers' job-to-job transitions. First, using monetary policy shocks and survey data on search effort, we empirically show that a one percentage point rise in inflation increases job-to-job transitions by up to 4.5%, and workers with higher inflation expectations are more likely to search and do so more effectively. Second, we build a general equilibrium model of directed on-the-job search to quantify the aggregate implications of labor market reactions. Higher-than-expected inflation reduces real wages, prompting workers to search more actively and aim lower. This increases job-to-job transitions but lowers the efficiency gains per transition. Therefore, the effect on output is ambiguous. Last, we calibrate the model to the U.S. economy. Inflationary shocks increase reallocation rates, yet allocative efficiency and output decline. Small deflationary shocks (e.g., 2%) increase output in the short run, while others decrease it.</p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar/calendar-details/cal/event/tx_cal_phpicalendar/2025/12/16/2114.html",
     "source": "Goethe University Frankfurt"
   },
   {
