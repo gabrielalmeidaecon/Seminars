@@ -36,24 +36,6 @@
     "source": "Goethe University Frankfurt"
   },
   {
-    "seminar_id": "finance_seminar",
-    "seminar_name": "Finance Seminar Series",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar.html",
-    "title": "Unlocking Mortgage Lock-In: Evidence From  a Spatial Housing Ladder Model",
-    "speaker": "Pierre Mabille, INSEAD Fontainebleau",
-    "speaker_url": "https://www.insead.edu/faculty/pierre-mabille",
-    "date": "2025-12-09",
-    "raw_date": "09 December 2025",
-    "time_info": "12:00–13:15",
-    "start_time": "12:00",
-    "end_time": "13:15",
-    "location": "HoF E.01 / Deutsche Bank room",
-    "description": "Unlocking Mortgage Lock-In: Evidence From  a Spatial Housing Ladder Model\nwith Julia Fonseca, Lu Liu\nAbstract:\nMortgage borrowers are “locked in”: forgoing moves to hold on to low mortgage rates. We study the general equilibrium effects of mortgage lock-in on housing markets and evaluate a policy aimed at unlocking lock-in. We provide evidence that lock-in increases prices relative to a counterfactual where rates reset, particularly in expensive areas, because locked-in borrowers would otherwise have downsized and demanded less housing. We design a spatial housing ladder model with long-term mortgages, generating a distribution of locked-in rates and equilibrium effects on mobility and prices consistent with the data. A temporary rate hike causes lock-in, increasing housing demand and prices relative to a counterfactual without lock-in, especially in expensive areas. A $10k tax credit to starter-home sellers modestly unlocks mobility while increasing trade-up home prices, with the vast majority of transfer recipients being infra-marginal.\nPaper",
-    "description_html": "<p><strong>Unlocking Mortgage Lock-In: Evidence From  a Spatial Housing Ladder Model </strong></p>\n<p> with Julia Fonseca, Lu Liu </p>\n<p><strong>Abstract:</strong></p>\n<p> Mortgage borrowers are “locked in”: forgoing moves to hold on to low mortgage rates. We study the general equilibrium effects of mortgage lock-in on housing markets and evaluate a policy aimed at unlocking lock-in. We provide evidence that lock-in increases prices relative to a counterfactual where rates reset, particularly in expensive areas, because locked-in borrowers would otherwise have downsized and demanded less housing. We design a spatial housing ladder model with long-term mortgages, generating a distribution of locked-in rates and equilibrium effects on mobility and prices consistent with the data. A temporary rate hike causes lock-in, increasing housing demand and prices relative to a counterfactual without lock-in, especially in expensive areas. A $10k tax credit to starter-home sellers modestly unlocks mobility while increasing trade-up home prices, with the vast majority of transfer recipients being infra-marginal.</p>\n<p><a class=\"download\" href=\"fileadmin/user_upload/dateien_abteilungen/abt_fin/Dokumente/PDFs/Finance_Seminar_Papers/FonsecaLiuMabille_20251001.pdf\" target=\"_blank\" title=\"Initiates file download\">Paper</a></p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar/calendar-details/cal/event/tx_cal_phpicalendar/2025/12/09/2098.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "qep",
     "seminar_name": "Quantitative Economic Policy Seminar",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/eq/seminars/quantitative-economic-policy-seminar.html",
