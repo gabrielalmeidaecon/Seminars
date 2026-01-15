@@ -18,24 +18,6 @@
     "source": "Goethe University Frankfurt"
   },
   {
-    "seminar_id": "mm_amos",
-    "seminar_name": "AMOS Seminar (Management & Microeconomics)",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/amos.html",
-    "title": "Climb or Exit: Career Progression and Outmigration",
-    "speaker": "Agustín Faure (ZEW)",
-    "speaker_url": "https://www.zew.de/en/team/afa",
-    "date": "2026-01-14",
-    "raw_date": "14 January 2026",
-    "time_info": "14:15–15:30",
-    "start_time": "14:15",
-    "end_time": "15:30",
-    "location": "RuW 4.201",
-    "description": "Title:\nClimb or Exit: Career Progression and Outmigration\nAbstract:\nDo information frictions induce foreign workers to leave the host labor market earlier and climb more slowly? Using German social-security linked employer–employee data, I first document that migrants and locals follow systematically different career paths: migrants accumulate more but shorter full-time spells, reach lower positions in the wage distribution, and display higher early exit hazards and lower promotion rates along job ladders than locals. To interpret these patterns, I develop a dynamic career model with Bayesian learning about worker ability, assignment along a job ladder, and search frictions. The model implies a double-threshold rule in posterior beliefs: when beliefs fall below a lower threshold, workers exit. Between lower and upper thresholds they remain and wait for further information. Above the upper threshold they are promoted. These thresholds are endogenous and move over the career. Using within worker changes in assignments and wage residuals, I estimate the learning technology by GMM. Preliminary results indicate that migrants face systematically noisier performance signals than locals, especially on lower rungs of the ladder. Ongoing work embeds these estimates into the full dynamic model and studies the implications for retention, promotion, and the “foreign glass ceiling”.",
-    "description_html": "<p><strong>Title: </strong>Climb or Exit: Career Progression and Outmigration</p>\n<p><strong>Abstract:</strong> Do information frictions induce foreign workers to leave the host labor market earlier and climb more slowly? Using German social-security linked employer–employee data, I first document that migrants and locals follow systematically different career paths: migrants accumulate more but shorter full-time spells, reach lower positions in the wage distribution, and display higher early exit hazards and lower promotion rates along job ladders than locals. To interpret these patterns, I develop a dynamic career model with Bayesian learning about worker ability, assignment along a job ladder, and search frictions. The model implies a double-threshold rule in posterior beliefs: when beliefs fall below a lower threshold, workers exit. Between lower and upper thresholds they remain and wait for further information. Above the upper threshold they are promoted. These thresholds are endogenous and move over the career. Using within worker changes in assignments and wage residuals, I estimate the learning technology by GMM. Preliminary results indicate that migrants face systematically noisier performance signals than locals, especially on lower rungs of the ladder. Ongoing work embeds these estimates into the full dynamic model and studies the implications for retention, promotion, and the “foreign glass ceiling”.</p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/amos/calendar-details-mm-seminar/cal/event/tx_cal_phpicalendar/2026/01/14/2155.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "qep",
     "seminar_name": "Quantitative Economic Policy Seminar",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/eq/seminars/quantitative-economic-policy-seminar.html",
@@ -374,7 +356,7 @@
     "location": "RuW 4.201",
     "description": "",
     "description_html": "",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar/calendar-details-mm-bb/cal/event/tx_cal_phpicalendar/2026/02/05/2080.html",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar/calendar-details-mm-bb/cal/event/tx_cal_phpicalendar/2026/02/12/2080.html",
     "source": "Goethe University Frankfurt"
   },
   {
