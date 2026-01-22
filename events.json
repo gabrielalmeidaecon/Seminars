@@ -54,24 +54,6 @@
     "source": "Goethe University Frankfurt"
   },
   {
-    "seminar_id": "mm_amos",
-    "seminar_name": "AMOS Seminar (Management & Microeconomics)",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/amos.html",
-    "title": "Toward the Unconventional: The Evolution of VC Preferences for Atypical Ventures",
-    "speaker": "Alexander Vossen (Tilburg University)",
-    "speaker_url": "https://www.tilburguniversity.edu/staff/a-vossen",
-    "date": "2026-01-21",
-    "raw_date": "21 January 2026",
-    "time_info": "14:15–15:30",
-    "start_time": "14:15",
-    "end_time": "15:30",
-    "location": "RuW 4.201",
-    "description": "Title:\nToward the Unconventional: The Evolution of VC Preferences for Atypical Ventures\nAbstract:\nLiteratures on categorization and strategic differentiation suggest that the effectiveness of an atypical identity or distinct market positioning depends on the preferences of the evaluative audience. However, these preferences are often treated as stable, with heterogeneity assumed only between audiences rather than evolving within them. Our study aims to explain how preferences for atypicality might evolve among venture capitalists, using data on startups and their investments from PitchBook and Crunchbase. We distinguish between two complementary lenses: an experiential perspective, focusing on how prior investment experiences could shape subsequent choices, and a socially constructed perspective, focusing on how network exposure and field embeddedness may influence investment patterns. Our study suggests that VCs’ preferences for unconventional ventures may change over time, indicating that audience preferences are dynamic and context-dependent, rather than fixed markers of evaluation.",
-    "description_html": "<p><strong>Title:</strong> Toward the Unconventional: The Evolution of VC Preferences for Atypical Ventures</p>\n<p><strong>Abstract:</strong> Literatures on categorization and strategic differentiation suggest that the effectiveness of an atypical identity or distinct market positioning depends on the preferences of the evaluative audience. However, these preferences are often treated as stable, with heterogeneity assumed only between audiences rather than evolving within them. Our study aims to explain how preferences for atypicality might evolve among venture capitalists, using data on startups and their investments from PitchBook and Crunchbase. We distinguish between two complementary lenses: an experiential perspective, focusing on how prior investment experiences could shape subsequent choices, and a socially constructed perspective, focusing on how network exposure and field embeddedness may influence investment patterns. Our study suggests that VCs’ preferences for unconventional ventures may change over time, indicating that audience preferences are dynamic and context-dependent, rather than fixed markers of evaluation.</p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/amos/calendar-details-mm-seminar/cal/event/tx_cal_phpicalendar/2026/01/21/2141.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "mm_brownbag",
     "seminar_name": "Management & Microeconomics Brown Bag",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
@@ -141,24 +123,6 @@
     "description": "Title:\ntba\nAbstract:\ntba",
     "description_html": "<p><strong>Title: </strong>tba</p>\n<p><strong>Abstract:</strong> tba</p>",
     "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar/calendar-details/cal/event/tx_cal_phpicalendar/2026/01/27/2113.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
-    "seminar_id": "finance_brownbag",
-    "seminar_name": "Finance Brown Bag",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/finance-brown-bag.html",
-    "title": "tba",
-    "speaker": "Winta Beyene (SAFE)",
-    "speaker_url": "",
-    "date": "2026-01-28",
-    "raw_date": "28 January 2026",
-    "time_info": "14:00–15:00",
-    "start_time": "14:00",
-    "end_time": "15:00",
-    "location": "HoF E.20 (DZ Bank)",
-    "description": "Abstract:\ntba.",
-    "description_html": "<p><strong>Abstract:</strong> tba.</p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/01/28/2158.html",
     "source": "Goethe University Frankfurt"
   },
   {
