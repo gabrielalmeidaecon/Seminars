@@ -1,23 +1,5 @@
 [
   {
-    "seminar_id": "finance_seminar",
-    "seminar_name": "Finance Seminar Series",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar.html",
-    "title": "Rewiring Supply Chains Through Uncoordinated Climate Policy",
-    "speaker": "Emilia Garcia-Appendini",
-    "speaker_url": "https://www.unisg.ch/en/university/schools/school-of-finance-sof-hsg/chair-of-banking-and-financial-intermediation/",
-    "date": "2026-01-13",
-    "raw_date": "13 January 2026",
-    "time_info": "12:00–13:15",
-    "start_time": "12:00",
-    "end_time": "13:15",
-    "location": "HoF E.01 / Deutsche Bank room",
-    "description": "Rewiring Supply Chains Through Uncoordinated Climate Policy\nwith Emanuela Benincasa, Olimpia Carradori, Miguel Ferreira\nAbstract:\nWe show that climate transition risks can significantly disrupt supply chain networks. Specifically, suppliers affected by the California cap-and-trade program are more likely to lose customer relationships and less likely to form new ones compared to their peers unaffected by the program. The effects are more pronounced among suppliers facing high competitive pressure and producing standardized inputs. Additionally, affected suppliers experience declines in revenues, assets, and profitability. This supply chain rewiring induced by uncoordinated climate policies is consistent with carbon leakage, as customers exposed to the program through production networks show an increase in their supply chain emission intensity.\nPaper",
-    "description_html": "<p> </p>\n<p><strong>Rewiring Supply Chains Through Uncoordinated Climate Policy</strong></p>\n<p> </p>\n<p> with Emanuela Benincasa, Olimpia Carradori, Miguel Ferreira </p>\n<p><strong> Abstract: </strong></p>\n<p> We show that climate transition risks can significantly disrupt supply chain networks. Specifically, suppliers affected by the California cap-and-trade program are more likely to lose customer relationships and less likely to form new ones compared to their peers unaffected by the program. The effects are more pronounced among suppliers facing high competitive pressure and producing standardized inputs. Additionally, affected suppliers experience declines in revenues, assets, and profitability. This supply chain rewiring induced by uncoordinated climate policies is consistent with carbon leakage, as customers exposed to the program through production networks show an increase in their supply chain emission intensity.</p>\n<p><a class=\"download\" href=\"fileadmin/user_upload/dateien_abteilungen/abt_fin/Dokumente/PDFs/Finance_Seminar_Papers/ssrn-4994643.pdf\" title=\"Initiates file download\">Paper</a></p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar/calendar-details/cal/event/tx_cal_phpicalendar/2026/01/13/2100.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "qep",
     "seminar_name": "Quantitative Economic Policy Seminar",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/eq/seminars/quantitative-economic-policy-seminar.html",
@@ -90,24 +72,6 @@
     "source": "Goethe University Frankfurt"
   },
   {
-    "seminar_id": "macro_seminar",
-    "seminar_name": "Macro Seminar",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar.html",
-    "title": "A Policy-Relevant Structural Macroeconomic Model for Emerging Market Economies with Illustration for Vietnam",
-    "speaker": "Michael Binder (Goethe University)",
-    "speaker_url": "",
-    "date": "2026-01-27",
-    "raw_date": "27 January 2026",
-    "time_info": "14:15–15:30",
-    "start_time": "14:15",
-    "end_time": "15:30",
-    "location": "HoF E.01/Deutsche Bank",
-    "description": "Title:\nA Policy-Relevant Structural Macroeconomic Model for Emerging Market Economies with Illustration for Vietnam\n(joint with Stefan Girstmair, Le Van Ha and Anh H. Le)",
-    "description_html": "<p><strong>Title: </strong>A Policy-Relevant Structural Macroeconomic Model for Emerging Market Economies with Illustration for Vietnam</p>\n<p>(joint with Stefan Girstmair, Le Van Ha and Anh H. Le)</p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar/calendar-details/cal/event/tx_cal_phpicalendar/2026/01/27/2113.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "mm_amos",
     "seminar_name": "AMOS Seminar (Management & Microeconomics)",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/amos.html",
@@ -165,7 +129,7 @@
     "seminar_id": "finance_seminar",
     "seminar_name": "Finance Seminar Series",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar.html",
-    "title": "TBA",
+    "title": "Fed Information Effects: The Inflation Channel",
     "speaker": "Benjamin Golez, Mendoza College of Business, University of Notre Dame",
     "speaker_url": "https://mendoza.nd.edu/mendoza-directory/profile/benjamin-golez/",
     "date": "2026-02-03",
@@ -174,8 +138,8 @@
     "start_time": "12:00",
     "end_time": "13:15",
     "location": "HoF E.01 / Deutsche Bank room",
-    "description": "",
-    "description_html": "",
+    "description": "Fed Information Effects: The Inflation Channel\nwith Ben Matthies\nDo investors extract signals about near-term inflation from Federal Reserve policy decisions? We develop a model of the equity term structure in which unexpected policy tightening signals inflation concerns, raising both investor inflation expectations and the risk premia of short-term assets. Using high-frequency dividend strip data around FOMC announcements, we document a regime change between the pre-COVID period (2004-2020) and the post-COVID period (2021-2025). Before COVID, short-term equity responds positively to monetary policy surprises and predicts near-term dividend growth, but not inflation - consistent with growth information effects documented in prior work. After COVID, these patterns reverse - as predicted by our model: short-term equity loads negatively on monetary policy surprises and predicts near-term inflation but not dividend growth. Predictability is concentrated in the reaction to the target rate announcement rather than the press conference that follows, suggesting that investors extract inflation signals from the Fed's actions rather than its words. Our findings indicate that the content of Fed Information effects is regime-dependent, shifting from growth to inflation as macroeconomic uncertainty evolves.",
+    "description_html": "<p><strong>Fed Information Effects: The Inflation Channel</strong></p>\n<p>with Ben Matthies</p>\n<p>Do investors extract signals about near-term inflation from Federal Reserve policy decisions? We develop a model of the equity term structure in which unexpected policy tightening signals inflation concerns, raising both investor inflation expectations and the risk premia of short-term assets. Using high-frequency dividend strip data around FOMC announcements, we document a regime change between the pre-COVID period (2004-2020) and the post-COVID period (2021-2025). Before COVID, short-term equity responds positively to monetary policy surprises and predicts near-term dividend growth, but not inflation - consistent with growth information effects documented in prior work. After COVID, these patterns reverse - as predicted by our model: short-term equity loads negatively on monetary policy surprises and predicts near-term inflation but not dividend growth. Predictability is concentrated in the reaction to the target rate announcement rather than the press conference that follows, suggesting that investors extract inflation signals from the Fed's actions rather than its words. Our findings indicate that the content of Fed Information effects is regime-dependent, shifting from growth to inflation as macroeconomic uncertainty evolves.</p>",
     "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar/calendar-details/cal/event/tx_cal_phpicalendar/2026/02/03/2103.html",
     "source": "Goethe University Frankfurt"
   },
