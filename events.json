@@ -72,24 +72,6 @@
     "source": "Goethe University Frankfurt"
   },
   {
-    "seminar_id": "mm_brownbag",
-    "seminar_name": "Management & Microeconomics Brown Bag",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
-    "title": "Removing Race from Representation",
-    "speaker": "Navid Sabet",
-    "speaker_url": "",
-    "date": "2026-01-29",
-    "raw_date": "29 January 2026",
-    "time_info": "12:30–13:30",
-    "start_time": "12:30",
-    "end_time": "13:30",
-    "location": "RuW 4.201",
-    "description": "Title:\nRemoving Race from Representation (with Ebonya Washington, Columbia)\nAbstract:\nWe study whether cumulative voting (CV)—a semi-proportional electoral rule that allows voters to concentrate multiple votes on a single candidate—can increase minority representation. We assemble a panel of Texas school districts that adopted CV between 1991 and 2002 following Voting Rights Act settlements and implement a staggered difference-in-differences design using administrative rosters of school board members linked to district demographics. We find that CV adoption more than doubles Hispanic representation within five years, increasing Hispanic board share by roughly four percentage points from a low pre-period mean and raising the probability that a district has at least one Hispanic board member. Effects are larger where Hispanic population shares are higher and are not concentrated in more educated districts, suggesting that coordination constraints are not the primary barrier. Staggered elections attenuate impacts, implying that CV’s full potential may be greater under concurrent contests. Finally, we document modest increases in Hispanic student performance.",
-    "description_html": "<p><strong>Title: </strong>Removing Race from Representation (with Ebonya Washington, Columbia) </p>\n<p><strong>Abstract:</strong> We study whether cumulative voting (CV)—a semi-proportional electoral rule that allows voters to concentrate multiple votes on a single candidate—can increase minority representation. We assemble a panel of Texas school districts that adopted CV between 1991 and 2002 following Voting Rights Act settlements and implement a staggered difference-in-differences design using administrative rosters of school board members linked to district demographics. We find that CV adoption more than doubles Hispanic representation within five years, increasing Hispanic board share by roughly four percentage points from a low pre-period mean and raising the probability that a district has at least one Hispanic board member. Effects are larger where Hispanic population shares are higher and are not concentrated in more educated districts, suggesting that coordination constraints are not the primary barrier. Staggered elections attenuate impacts, implying that CV’s full potential may be greater under concurrent contests. Finally, we document modest increases in Hispanic student performance.</p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar/calendar-details-mm-bb/cal/event/tx_cal_phpicalendar/2026/01/29/2147.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "qep",
     "seminar_name": "Quantitative Economic Policy Seminar",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/eq/seminars/quantitative-economic-policy-seminar.html",
