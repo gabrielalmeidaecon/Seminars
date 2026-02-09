@@ -255,7 +255,7 @@
     "seminar_id": "macro_seminar",
     "seminar_name": "Macro Seminar",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar.html",
-    "title": "tba",
+    "title": "Monetary Policy Without Borrowing: Capacity Constraints and Lumpy Investment",
     "speaker": "Boragan Aruoba (University of Maryland)",
     "speaker_url": "",
     "date": "2026-05-19",
@@ -264,8 +264,8 @@
     "start_time": "14:15",
     "end_time": "15:30",
     "location": "HoF E.01/Deutsche Bank",
-    "description": "Title:\ntba\nAbstract:\ntba",
-    "description_html": "<p><strong>Title: </strong>tba</p>\n<p><strong>Abstract:</strong> tba</p>\n<p><span lang=\"EN-US\"></span></p>",
+    "description": "Title:\nMonetary Policy Without Borrowing: Capacity Constraints and Lumpy Investment (with A. Fernandez, F. Saffie and W. Lu)\nAbstract:\ntba",
+    "description_html": "<p><strong>Title: </strong>Monetary Policy Without Borrowing: Capacity Constraints and Lumpy Investment (with A. Fernandez, F. Saffie and W. Lu)</p>\n<p><strong>Abstract:</strong> tba</p>",
     "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar/calendar-details/cal/event/tx_cal_phpicalendar/2026/05/19/2171.html",
     "source": "Goethe University Frankfurt"
   },
@@ -285,6 +285,24 @@
     "description": "",
     "description_html": "",
     "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/eq/seminars/quantitative-economic-policy-seminar/calendar-details/cal/event/tx_cal_phpicalendar/2026/05/28/2163.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
+    "seminar_id": "macro_seminar",
+    "seminar_name": "Macro Seminar",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar.html",
+    "title": "tba",
+    "speaker": "Martina Viarengo (Geneve Institute)",
+    "speaker_url": "",
+    "date": "2026-06-02",
+    "raw_date": "02 June 2026",
+    "time_info": "14:15–15:30",
+    "start_time": "14:15",
+    "end_time": "15:30",
+    "location": "HoF E.01/Deutsche Bank",
+    "description": "Title:\ntba\nAbstract:\ntba",
+    "description_html": "<p><strong>Title: </strong>tba</p>\n<p><strong>Abstract:</strong> tba</p>\n<p><span lang=\"EN-US\"></span></p>",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar/calendar-details/cal/event/tx_cal_phpicalendar/2026/06/02/2128.html",
     "source": "Goethe University Frankfurt"
   },
   {
@@ -410,7 +428,7 @@
     "location": "HoF E.01/Deutsche Bank",
     "description": "Title:\ntba\nAbstract:\ntba",
     "description_html": "<p><strong>Title: </strong>tba</p>\n<p><strong>Abstract:</strong> tba</p>\n<p><span lang=\"EN-US\"></span></p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar/calendar-details/cal/event/tx_cal_phpicalendar/2026/07/07/2128.html",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar/calendar-details/cal/event/tx_cal_phpicalendar/2026/07/07/2176.html",
     "source": "Goethe University Frankfurt"
   },
   {
