@@ -108,24 +108,6 @@
     "source": "Goethe University Frankfurt"
   },
   {
-    "seminar_id": "macro_seminar",
-    "seminar_name": "Macro Seminar",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar.html",
-    "title": "tba",
-    "speaker": "Johannes Huber (Goethe University)",
-    "speaker_url": "",
-    "date": "2026-04-21",
-    "raw_date": "21 April 2026",
-    "time_info": "14:15–15:30",
-    "start_time": "14:15",
-    "end_time": "15:30",
-    "location": "HoF E.01/Deutsche Bank",
-    "description": "Title:\ntba\nAbstract:\ntba",
-    "description_html": "<p><strong>Title: </strong>tba</p>\n<p><strong>Abstract:</strong> tba</p>\n<p><span lang=\"EN-US\"></span></p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar/calendar-details/cal/event/tx_cal_phpicalendar/2026/04/21/2173.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "qep",
     "seminar_name": "Quantitative Economic Policy Seminar",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/eq/seminars/quantitative-economic-policy-seminar.html",
@@ -288,6 +270,24 @@
     "source": "Goethe University Frankfurt"
   },
   {
+    "seminar_id": "macro_seminar",
+    "seminar_name": "Macro Seminar",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar.html",
+    "title": "tba",
+    "speaker": "Piotr Zoch (University of Warsaw)",
+    "speaker_url": "",
+    "date": "2026-06-23",
+    "raw_date": "23 June 2026",
+    "time_info": "14:15–15:30",
+    "start_time": "14:15",
+    "end_time": "15:30",
+    "location": "HoF E.01/Deutsche Bank",
+    "description": "Title:\ntba\nAbstract:\ntba",
+    "description_html": "<p><strong>Title: </strong>tba</p>\n<p><strong>Abstract:</strong> tba</p>\n<p><span lang=\"EN-US\"></span></p>",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar/calendar-details/cal/event/tx_cal_phpicalendar/2026/06/23/2173.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
     "seminar_id": "mm_brownbag",
     "seminar_name": "Management & Microeconomics Brown Bag",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
@@ -310,7 +310,7 @@
     "seminar_name": "Macro Seminar",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar.html",
     "title": "tba",
-    "speaker": "Internal speaker",
+    "speaker": "Johannes Huber (Goethe University)",
     "speaker_url": "",
     "date": "2026-06-30",
     "raw_date": "30 June 2026",
