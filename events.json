@@ -36,24 +36,6 @@
     "source": "Goethe University Frankfurt"
   },
   {
-    "seminar_id": "finance_seminar",
-    "seminar_name": "Finance Seminar Series",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar.html",
-    "title": "Macro Strikes Back: Term Structure of Risk Premia",
-    "speaker": "Svetlana Bryzgalova, London Business School",
-    "speaker_url": "https://www.london.edu/faculty-and-research/faculty-profiles/s/svetlana-bryzgalova",
-    "date": "2026-02-10",
-    "raw_date": "10 February 2026",
-    "time_info": "12:00–13:15",
-    "start_time": "12:00",
-    "end_time": "13:15",
-    "location": "HoF E.01 / Deutsche Bank room",
-    "description": "Macro Strikes Back: Term Structure of Risk Premia\nwith Jiantao Huang and Christian Julliard\nAbstract:\nWe provide a novel priced Wold representation theorem that sharply identifies shocks common to financial markets and the macroeconomy, their propagation, and the term structure of macro risk premia. Our identification leverages the fact that, in equilibrium models, asset prices are jump variables and reveal priced risks in large cross-sections of returns  (N → ∞).  We find that macro factors' risk premia are strongly time-varying and countercyclical, with sharply increasing unconditional term structures. This pattern is driven by the slow propagation of a priced common shock, distinct from TFP,  that captures most of the persistence in macroeconomic variables.  Macro risk premia are negligible in the short run, yet grow to match equity risk premia at the business cycle horizon. This finding is not a mechanical byproduct of persistence: while GDP, consumption, industrial production, and employment exhibit upward-sloping term structures, other similarly persistent factors, e.g., VIX or intermediary-based variables, display downward-sloping or flat ones.",
-    "description_html": "<p><strong>Macro Strikes Back: Term Structure of Risk Premia</strong></p>\n<p>with Jiantao Huang and Christian Julliard</p>\n<p><strong>Abstract:</strong></p>\n<p> </p>\n<p> </p>\n<p>We provide a novel priced Wold representation theorem that sharply identifies shocks common to financial markets and the macroeconomy, their propagation, and the term structure of macro risk premia. Our identification leverages the fact that, in equilibrium models, asset prices are jump variables and reveal priced risks in large cross-sections of returns  (N → ∞).  We find that macro factors' risk premia are strongly time-varying and countercyclical, with sharply increasing unconditional term structures. This pattern is driven by the slow propagation of a priced common shock, distinct from TFP,  that captures most of the persistence in macroeconomic variables.  Macro risk premia are negligible in the short run, yet grow to match equity risk premia at the business cycle horizon. This finding is not a mechanical byproduct of persistence: while GDP, consumption, industrial production, and employment exhibit upward-sloping term structures, other similarly persistent factors, e.g., VIX or intermediary-based variables, display downward-sloping or flat ones.</p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar/calendar-details/cal/event/tx_cal_phpicalendar/2026/02/10/2104.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "macro_seminar",
     "seminar_name": "Macro Seminar",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar.html",
