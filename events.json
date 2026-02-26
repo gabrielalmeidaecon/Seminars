@@ -198,6 +198,24 @@
     "source": "Goethe University Frankfurt"
   },
   {
+    "seminar_id": "macro_seminar",
+    "seminar_name": "Macro Seminar",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar.html",
+    "title": "tba",
+    "speaker": "Rüdiger Bachmann (University of Michigan)",
+    "speaker_url": "",
+    "date": "2026-06-09",
+    "raw_date": "09 June 2026",
+    "time_info": "14:15–15:30",
+    "start_time": "14:15",
+    "end_time": "15:30",
+    "location": "HoF E.01/Deutsche Bank",
+    "description": "Title:\ntba\nAbstract:\ntba",
+    "description_html": "<p><strong>Title: </strong>tba </p>\n<p><strong>Abstract:</strong> tba</p>",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar/calendar-details/cal/event/tx_cal_phpicalendar/2026/06/09/2176.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
     "seminar_id": "mm_brownbag",
     "seminar_name": "Management & Microeconomics Brown Bag",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
@@ -338,7 +356,7 @@
     "location": "HoF E.01/Deutsche Bank",
     "description": "Title:\ntba\nAbstract:\ntba",
     "description_html": "<p><strong>Title: </strong>tba</p>\n<p><strong>Abstract:</strong> tba</p>\n<p><span lang=\"EN-US\"></span></p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar/calendar-details/cal/event/tx_cal_phpicalendar/2026/07/07/2176.html",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar/calendar-details/cal/event/tx_cal_phpicalendar/2026/07/07/2178.html",
     "source": "Goethe University Frankfurt"
   },
   {
