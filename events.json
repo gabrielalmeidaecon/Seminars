@@ -1,23 +1,5 @@
 [
   {
-    "seminar_id": "qep",
-    "seminar_name": "Quantitative Economic Policy Seminar",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/eq/seminars/quantitative-economic-policy-seminar.html",
-    "title": "The economic effects of nonlinear health dynamics: estimates from a dynamic life-cycle model",
-    "speaker": "Chiara Dal Bianco (Padova)",
-    "speaker_url": "https://sites.google.com/site/dalbiancochiara/home",
-    "date": "2026-02-05",
-    "raw_date": "05 February 2026",
-    "time_info": "14:00–15:15",
-    "start_time": "14:00",
-    "end_time": "15:15",
-    "location": "RuW 4.202",
-    "description": "",
-    "description_html": "<p> </p>\n<p><br/><span style=\"color:black\"></span></p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/eq/seminars/quantitative-economic-policy-seminar/calendar-details/cal/event/tx_cal_phpicalendar/2026/02/05/2049.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "macro_seminar",
     "seminar_name": "Macro Seminar",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar.html",
