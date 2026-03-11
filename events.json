@@ -1,5 +1,23 @@
 [
   {
+    "seminar_id": "finance_seminar",
+    "seminar_name": "Finance Seminar Series",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar.html",
+    "title": "Filippo Di Marco",
+    "speaker": "Filippo Di Marco, Bocconi University",
+    "speaker_url": "https://www.unibocconi.it/en",
+    "date": "2026-04-14",
+    "raw_date": "14 April 2026",
+    "time_info": "12:00–13:15",
+    "start_time": "12:00",
+    "end_time": "13:15",
+    "location": "HoF E.01 / Deutsche Bank room",
+    "description": "",
+    "description_html": "",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar/calendar-details/cal/event/tx_cal_phpicalendar/2026/04/14/2180.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
     "seminar_id": "macro_seminar",
     "seminar_name": "Macro Seminar",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar.html",
