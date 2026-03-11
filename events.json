@@ -54,6 +54,24 @@
     "source": "Goethe University Frankfurt"
   },
   {
+    "seminar_id": "finance_seminar",
+    "seminar_name": "Finance Seminar Series",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar.html",
+    "title": "Emil Verner",
+    "speaker": "Emil Verner, MIT Management Sloan School",
+    "speaker_url": "https://mitsloan.mit.edu/",
+    "date": "2026-04-21",
+    "raw_date": "21 April 2026",
+    "time_info": "12:00–13:15",
+    "start_time": "12:00",
+    "end_time": "13:15",
+    "location": "HoF E.01 / Deutsche Bank room",
+    "description": "",
+    "description_html": "",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar/calendar-details/cal/event/tx_cal_phpicalendar/2026/04/21/2181.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
     "seminar_id": "mm_amos",
     "seminar_name": "AMOS Seminar (Management & Microeconomics)",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/amos.html",
@@ -105,6 +123,24 @@
     "description": "",
     "description_html": "",
     "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/eq/seminars/quantitative-economic-policy-seminar/calendar-details/cal/event/tx_cal_phpicalendar/2026/04/23/2161.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
+    "seminar_id": "finance_seminar",
+    "seminar_name": "Finance Seminar Series",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar.html",
+    "title": "Jane Li",
+    "speaker": "Jane Li, Columbia Business School",
+    "speaker_url": "https://business.columbia.edu/",
+    "date": "2026-04-28",
+    "raw_date": "28 April 2026",
+    "time_info": "12:00–13:15",
+    "start_time": "12:00",
+    "end_time": "13:15",
+    "location": "HoF E.01 / Deutsche Bank room",
+    "description": "",
+    "description_html": "",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar/calendar-details/cal/event/tx_cal_phpicalendar/2026/04/28/2182.html",
     "source": "Goethe University Frankfurt"
   },
   {
