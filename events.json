@@ -18,24 +18,6 @@
     "source": "Goethe University Frankfurt"
   },
   {
-    "seminar_id": "mm_brownbag",
-    "seminar_name": "Management & Microeconomics Brown Bag",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
-    "title": "Hidden Costs and Benefits of Parental Leave: Evidence on Spillover Effects from Personnel Records",
-    "speaker": "Hideo Owan (Waseda University)",
-    "speaker_url": "https://scholar.google.com/citations?user=ounVRHQAAAAJ&hl=en",
-    "date": "2026-04-16",
-    "raw_date": "16 April 2026",
-    "time_info": "12:30–13:30",
-    "start_time": "12:30",
-    "end_time": "13:30",
-    "location": "RuW 4.201",
-    "description": "Title:\nHidden Costs and Benefits of Parental Leave: Evidence on Spillover Effects from Personnel Records\nAbstract:\nThis paper examines whether and to what extent a female coworker’s parental leave increases the workload of remaining employees and affects their job satisfaction. Using personnel records from a large Japanese manufacturing firm, we estimate the causal effects on team members’ monthly overtime hours using an event-study difference-in-differences approach. We find that a leave spell increases overtime among coworkers in the same section, with supervisors experiencing particularly large increases, despite the team often receiving a replacement worker in advance. Using additional evidence from employee engagement surveys, we interpret these patterns as reflecting adjustment costs, including productivity losses due to the need to share and communicate job-specific knowledge within the team. We also find evidence of increased human capital accumulation and improved vertical communication.",
-    "description_html": "<p><strong>Title: </strong>Hidden Costs and Benefits of Parental Leave: Evidence on Spillover Effects from Personnel Records</p>\n<p><strong>Abstract:</strong> This paper examines whether and to what extent a female coworker’s parental leave increases the workload of remaining employees and affects their job satisfaction. Using personnel records from a large Japanese manufacturing firm, we estimate the causal effects on team members’ monthly overtime hours using an event-study difference-in-differences approach. We find that a leave spell increases overtime among coworkers in the same section, with supervisors experiencing particularly large increases, despite the team often receiving a replacement worker in advance. Using additional evidence from employee engagement surveys, we interpret these patterns as reflecting adjustment costs, including productivity losses due to the need to share and communicate job-specific knowledge within the team. We also find evidence of increased human capital accumulation and improved vertical communication.</p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar/calendar-details-mm-bb/cal/event/tx_cal_phpicalendar/2026/04/16/2179.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "finance_seminar",
     "seminar_name": "Finance Seminar Series",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar.html",
