@@ -792,6 +792,24 @@
     "source": "Goethe University Frankfurt"
   },
   {
+    "seminar_id": "finance_brownbag",
+    "seminar_name": "Finance Brown Bag",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/finance-brown-bag.html",
+    "title": "tba",
+    "speaker": "Loriana Pelizzon (SAFE)",
+    "speaker_url": "",
+    "date": "2026-07-15",
+    "raw_date": "15 July 2026",
+    "time_info": "14:00–15:00",
+    "start_time": "14:00",
+    "end_time": "15:00",
+    "location": "HoF E.20 (DZ Bank)",
+    "description": "Abstract:\ntba",
+    "description_html": "<p><strong>Abstract:</strong> tba</p>",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/07/15/2209.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
     "seminar_id": "qep",
     "seminar_name": "Quantitative Economic Policy Seminar",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/eq/seminars/quantitative-economic-policy-seminar.html",
