@@ -9,6 +9,7 @@ import requests
 from bs4 import BeautifulSoup, NavigableString, Tag
 
 IMFS_URL = "https://www.imfs-frankfurt.de/veranstaltungen/alle-kommenden-veranstaltungen"
+LAWFIN_URL = "https://www.lawfin.uni-frankfurt.de/events/lawfin-research-seminars"
 
 SEMINARS = [
     {
@@ -564,6 +565,140 @@ def scrape_imfs() -> List[Dict]:
     return events
 
 
+def scrape_lawfin_details(url: str) -> Dict:
+    """Fetch a LawFin detail page and extract time, location, description."""
+    if not url:
+        return {}
+    cached = DETAIL_CACHE.get(url)
+    if cached is not None:
+        return cached
+
+    result: Dict[str, str] = {}
+    try:
+        soup = fetch(url)
+    except Exception:
+        DETAIL_CACHE[url] = {}
+        return {}
+
+    detail = soup.select_one(".event-detail")
+    if not detail:
+        DETAIL_CACHE[url] = {}
+        return {}
+
+    # Time from .event-detail-meta-date  ("... 14:15 ... - ... 15:30")
+    date_div = detail.select_one(".event-detail-meta-date")
+    if date_div:
+        raw = date_div.get_text(" ", strip=True)
+        times = re.findall(r"\d{1,2}:\d{2}", raw)
+        if len(times) >= 2:
+            result["start_time"] = times[0]
+            result["end_time"] = times[1]
+            result["time_info"] = f"{times[0]}\u2013{times[1]}"
+        elif len(times) == 1:
+            result["start_time"] = times[0]
+            result["time_info"] = times[0]
+
+    # Location from .event-detail-meta-location
+    loc_div = detail.select_one(".event-detail-meta-location")
+    if loc_div:
+        loc_text = loc_div.get_text(" ", strip=True)
+        # Strip the SVG title text that leaks into get_text
+        loc_text = re.sub(r"^.*?location_\w+\s*", "", loc_text).strip()
+        if loc_text:
+            result["location"] = loc_text
+
+    # Speaker from .event-detail-meta-speaker
+    speaker_div = detail.select_one(".event-detail-meta-speaker")
+    if speaker_div:
+        sp_text = speaker_div.get_text(" ", strip=True)
+        sp_text = re.sub(r"^.*?speaker_\w+\s*", "", sp_text).strip()
+        if sp_text:
+            result["speaker"] = sp_text
+
+    # Description
+    desc_div = detail.select_one(".event-detail-description")
+    if desc_div:
+        description_text = desc_div.get_text("\n", strip=True)
+        if description_text:
+            result["description"] = description_text
+        html = desc_div.decode_contents().strip()
+        if html:
+            result["description_html"] = html
+
+    DETAIL_CACHE[url] = result
+    return result
+
+
+def scrape_lawfin() -> List[Dict]:
+    """Parse LawFin Research Seminars page."""
+    soup = fetch(LAWFIN_URL)
+    table = soup.select_one("table.event-list-table")
+    events: List[Dict] = []
+
+    if not table:
+        return events
+
+    for tr in table.select("tbody tr"):
+        tds = tr.find_all("td")
+        if len(tds) < 3:
+            continue
+
+        # Date (1st column)
+        date_text = tds[0].get_text(strip=True)
+        if not date_text:
+            continue
+        try:
+            d = parse_date(date_text)
+        except Exception:
+            continue
+
+        # Speaker (2nd column)
+        speaker = tds[1].get_text(" ", strip=True)
+        speaker_url = ""
+        link = tds[1].find("a", href=True)
+        if link:
+            speaker_url = urljoin(LAWFIN_URL, link["href"])
+
+        # Title + details link (3rd column)
+        title = ""
+        details_url = ""
+        link = tds[2].find("a", href=True)
+        if link:
+            title = link.get_text(" ", strip=True)
+            details_url = urljoin(LAWFIN_URL, link["href"])
+        else:
+            title = tds[2].get_text(" ", strip=True)
+
+        if not title:
+            continue
+
+        # Fetch detail page for time, location, description
+        detail_data = scrape_lawfin_details(details_url) if details_url else {}
+
+        events.append(
+            {
+                "seminar_id": "lawfin",
+                "seminar_name": "LawFin Research Seminar",
+                "seminar_page": LAWFIN_URL,
+                "title": title,
+                "speaker": detail_data.get("speaker", speaker),
+                "speaker_url": speaker_url,
+                "date": d.isoformat(),
+                "raw_date": date_text,
+                "time_info": detail_data.get("time_info", ""),
+                "start_time": detail_data.get("start_time", ""),
+                "end_time": detail_data.get("end_time", ""),
+                "location": detail_data.get("location", ""),
+                "description": detail_data.get("description", ""),
+                "description_html": detail_data.get("description_html", ""),
+                "details_url": details_url or LAWFIN_URL,
+                "source": "LawFin Goethe University Frankfurt",
+            }
+        )
+
+    return events
+
+
 def main() -> None:
     all_events: List[Dict] = []
 
@@ -573,6 +708,9 @@ def main() -> None:
 
     # IMFS
     all_events.extend(scrape_imfs())
+
+    # LawFin
+    all_events.extend(scrape_lawfin())
 
     # De-duplicate (same seminar + title + date)
     seen = set()
