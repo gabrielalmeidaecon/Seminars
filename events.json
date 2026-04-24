@@ -36,42 +36,6 @@
     "source": "Goethe University Frankfurt"
   },
   {
-    "seminar_id": "mm_amos",
-    "seminar_name": "AMOS Seminar (Management & Microeconomics)",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/amos.html",
-    "title": "The Ideology of Entrepreneurship",
-    "speaker": "Robert Eberhart (University of San Diego)",
-    "speaker_url": "https://www.sandiego.edu/business/about/biography.php?profile_id=14906",
-    "date": "2026-04-23",
-    "raw_date": "23 April 2026",
-    "time_info": "12:30–13:45",
-    "start_time": "12:30",
-    "end_time": "13:45",
-    "location": "RuW 4.201",
-    "description": "Title:\nThe Ideology of Entrepreneurship (w/ Wesley Sine)\nAbstract:\nThis study explains how entrepreneurial ideology has become a durable interpretive framework for contemporary social life. As collective institutions have weakened, burdens once buffered by firms, unions, and public programs have been displaced onto individuals. This study argues that this reorganization has produced organized precarity: a condition in which participation remains institutionally structured while risk, uncertainty, and responsibility are redistributed downward. Entrepreneurial ideology stabilizes this order by rendering individualized burden morally intelligible and legitimate across unequal positions. It does so through four linked mechanisms: the individualization of responsibility, the reframing of evaluation, the temporal normalization of persistence and failure, and cross-positional legitimation. These mechanisms justify extraordinary reward for the advantaged while encouraging endurance, deferred possibility, and selfmanagement among those facing precarity. This study further shows how this ideology diffuses across work, education, public goods, and collective problem-solving, thereby sustaining inequality and weakening expectations of collective repair in contemporary institutional life today.",
-    "description_html": "<p><strong>Title: </strong>The Ideology of Entrepreneurship (w/ Wesley Sine)</p>\n<p><strong>Abstract:</strong> This study explains how entrepreneurial ideology has become a durable interpretive framework for contemporary social life. As collective institutions have weakened, burdens once buffered by firms, unions, and public programs have been displaced onto individuals. This study argues that this reorganization has produced organized precarity: a condition in which participation remains institutionally structured while risk, uncertainty, and responsibility are redistributed downward. Entrepreneurial ideology stabilizes this order by rendering individualized burden morally intelligible and legitimate across unequal positions. It does so through four linked mechanisms: the individualization of responsibility, the reframing of evaluation, the temporal normalization of persistence and failure, and cross-positional legitimation. These mechanisms justify extraordinary reward for the advantaged while encouraging endurance, deferred possibility, and selfmanagement among those facing precarity. This study further shows how this ideology diffuses across work, education, public goods, and collective problem-solving, thereby sustaining inequality and weakening expectations of collective repair in contemporary institutional life today.</p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/amos/calendar-details-mm-seminar/cal/event/tx_cal_phpicalendar/2026/04/23/2177.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
-    "seminar_id": "mm_brownbag",
-    "seminar_name": "Management & Microeconomics Brown Bag",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
-    "title": "The Ideology of Entrepreneurship",
-    "speaker": "Robert Eberhart (University of San Diego)",
-    "speaker_url": "https://www.sandiego.edu/business/about/biography.php?profile_id=14906",
-    "date": "2026-04-23",
-    "raw_date": "23 April 2026",
-    "time_info": "12:30–13:45",
-    "start_time": "12:30",
-    "end_time": "13:45",
-    "location": "RuW 4.201",
-    "description": "Title:\nThe Ideology of Entrepreneurship (w/ Wesley Sine)\nAbstract:\nThis study explains how entrepreneurial ideology has become a durable interpretive framework for contemporary social life. As collective institutions have weakened, burdens once buffered by firms, unions, and public programs have been displaced onto individuals. This study argues that this reorganization has produced organized precarity: a condition in which participation remains institutionally structured while risk, uncertainty, and responsibility are redistributed downward. Entrepreneurial ideology stabilizes this order by rendering individualized burden morally intelligible and legitimate across unequal positions. It does so through four linked mechanisms: the individualization of responsibility, the reframing of evaluation, the temporal normalization of persistence and failure, and cross-positional legitimation. These mechanisms justify extraordinary reward for the advantaged while encouraging endurance, deferred possibility, and selfmanagement among those facing precarity. This study further shows how this ideology diffuses across work, education, public goods, and collective problem-solving, thereby sustaining inequality and weakening expectations of collective repair in contemporary institutional life today.",
-    "description_html": "<p><strong>Title: </strong>The Ideology of Entrepreneurship (w/ Wesley Sine)</p>\n<p><strong>Abstract:</strong> This study explains how entrepreneurial ideology has become a durable interpretive framework for contemporary social life. As collective institutions have weakened, burdens once buffered by firms, unions, and public programs have been displaced onto individuals. This study argues that this reorganization has produced organized precarity: a condition in which participation remains institutionally structured while risk, uncertainty, and responsibility are redistributed downward. Entrepreneurial ideology stabilizes this order by rendering individualized burden morally intelligible and legitimate across unequal positions. It does so through four linked mechanisms: the individualization of responsibility, the reframing of evaluation, the temporal normalization of persistence and failure, and cross-positional legitimation. These mechanisms justify extraordinary reward for the advantaged while encouraging endurance, deferred possibility, and selfmanagement among those facing precarity. This study further shows how this ideology diffuses across work, education, public goods, and collective problem-solving, thereby sustaining inequality and weakening expectations of collective repair in contemporary institutional life today.</p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar/calendar-details-mm-bb/cal/event/tx_cal_phpicalendar/2026/04/23/2177.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "qep",
     "seminar_name": "Quantitative Economic Policy Seminar",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/eq/seminars/quantitative-economic-policy-seminar.html",
@@ -174,8 +138,8 @@
     "start_time": "12:30",
     "end_time": "13:30",
     "location": "RuW 4.201",
-    "description": "Title:\nThe Impact of Personality Traits on Career Progression in Low-Skilled Labour Markets\nAbstract:\nThis paper examines career progression out of low-skilled jobs in an overcrowded labour market using Australian panel data and Cox proportional hazards models. Among largely homogeneous-skill workers, we show that employers rely on personality traits to differentiate employees. Of the Big Five traits, extraversion is the only trait that significantly increases the likelihood of career progression, with no significant gender xtraversion is the only trait that significantly increases the likelihood of career progression, with no significant gender heterogeneity. The importance of extraversion has increased over time, consistent with the growing role of workplace collaboration.",
-    "description_html": "<p><strong>Title: </strong>The Impact of Personality Traits on Career Progression in Low-Skilled Labour Markets</p>\n<p><strong>Abstract:</strong> This paper examines career progression out of low-skilled jobs in an overcrowded labour market using Australian panel data and Cox proportional hazards models. Among largely homogeneous-skill workers, we show that employers rely on personality traits to differentiate employees. Of the Big Five traits, extraversion is the only trait that significantly increases the likelihood of career progression, with no significant gender xtraversion is the only trait that significantly increases the likelihood of career progression, with no significant gender heterogeneity. The importance of extraversion has increased over time, consistent with the growing role of workplace collaboration.</p>",
+    "description": "Title:\nThe Impact of Personality Traits on Career Progression in Low-Skilled Labour Markets\nAbstract:\nThis paper examines career progression out of low-skilled jobs in an overcrowded labour market using Australian panel data and Cox proportional hazards models. Among largely homogeneous-skill workers, we show that employers rely on personality traits to differentiate employees. Of the Big Five traits, extraversion is the only trait that significantly increases the likelihood of career progression, with no significant gender heterogeneity. The importance of extraversion has increased over time, consistent with the growing role of workplace collaboration.",
+    "description_html": "<p><strong>Title: </strong>The Impact of Personality Traits on Career Progression in Low-Skilled Labour Markets</p>\n<p><strong>Abstract:</strong> This paper examines career progression out of low-skilled jobs in an overcrowded labour market using Australian panel data and Cox proportional hazards models. Among largely homogeneous-skill workers, we show that employers rely on personality traits to differentiate employees. Of the Big Five traits, extraversion is the only trait that significantly increases the likelihood of career progression, with no significant gender heterogeneity. The importance of extraversion has increased over time, consistent with the growing role of workplace collaboration.</p>",
     "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar/calendar-details-mm-bb/cal/event/tx_cal_phpicalendar/2026/04/30/2210.html",
     "source": "Goethe University Frankfurt"
   },
@@ -267,6 +231,24 @@
     "description": "",
     "description_html": "",
     "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar/calendar-details/cal/event/tx_cal_phpicalendar/2026/05/12/2184.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
+    "seminar_id": "finance_brownbag",
+    "seminar_name": "Finance Brown Bag",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/finance-brown-bag.html",
+    "title": "tba",
+    "speaker": "Rémi Montagu (Visitor from ESCP Paris)",
+    "speaker_url": "",
+    "date": "2026-05-13",
+    "raw_date": "13 May 2026",
+    "time_info": "14:00–15:00",
+    "start_time": "14:00",
+    "end_time": "15:00",
+    "location": "HoF E.20 (DZ Bank)",
+    "description": "Abstract:\ntba",
+    "description_html": "<p><strong>Abstract:</strong> tba</p>",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/05/13/2209.html",
     "source": "Goethe University Frankfurt"
   },
   {
@@ -429,24 +411,6 @@
     "description": "Title:\ntba\nAbstract:\ntba",
     "description_html": "<p><strong>Title: </strong>tba</p>\n<p><strong>Abstract:</strong> tba</p>\n<p><span lang=\"EN-US\"></span></p>",
     "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar/calendar-details/cal/event/tx_cal_phpicalendar/2026/06/02/2128.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
-    "seminar_id": "mm_brownbag",
-    "seminar_name": "Management & Microeconomics Brown Bag",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
-    "title": "TBA",
-    "speaker": "Andrew Yunchou Zhang",
-    "speaker_url": "",
-    "date": "2026-06-04",
-    "raw_date": "04 June 2026",
-    "time_info": "12:30–13:30",
-    "start_time": "12:30",
-    "end_time": "13:30",
-    "location": "RuW 4.201",
-    "description": "",
-    "description_html": "",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar/calendar-details-mm-bb/cal/event/tx_cal_phpicalendar/2026/06/04/2211.html",
     "source": "Goethe University Frankfurt"
   },
   {
@@ -810,6 +774,24 @@
     "source": "Goethe University Frankfurt"
   },
   {
+    "seminar_id": "mm_brownbag",
+    "seminar_name": "Management & Microeconomics Brown Bag",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
+    "title": "TBA",
+    "speaker": "Andrew Yunchou Zhang",
+    "speaker_url": "",
+    "date": "2026-07-09",
+    "raw_date": "09 July 2026",
+    "time_info": "12:30–13:30",
+    "start_time": "12:30",
+    "end_time": "13:30",
+    "location": "RuW 4.201",
+    "description": "",
+    "description_html": "",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar/calendar-details-mm-bb/cal/event/tx_cal_phpicalendar/2026/07/09/2211.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
     "seminar_id": "qep",
     "seminar_name": "Quantitative Economic Policy Seminar",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/eq/seminars/quantitative-economic-policy-seminar.html",
@@ -860,7 +842,7 @@
     "location": "HoF E.20 (DZ Bank)",
     "description": "Abstract:\ntba",
     "description_html": "<p><strong>Abstract:</strong> tba</p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/07/15/2209.html",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/07/15/2212.html",
     "source": "Goethe University Frankfurt"
   },
   {
