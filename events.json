@@ -54,24 +54,6 @@
     "source": "Goethe University Frankfurt"
   },
   {
-    "seminar_id": "lawfin",
-    "seminar_name": "LawFin Research Seminar",
-    "seminar_page": "https://www.lawfin.uni-frankfurt.de/events/lawfin-research-seminars",
-    "title": "The Asking Price of Incorporation: State Leverage and the Evolution of Corporate Purpose",
-    "speaker": "Fatjon Kaja",
-    "speaker_url": "https://www.lawfin.uni-frankfurt.de/people",
-    "date": "2026-04-27",
-    "raw_date": "27 Apr 2026",
-    "time_info": "14:15–15:30",
-    "start_time": "14:15",
-    "end_time": "15:30",
-    "location": "HoF 1.01 + online",
-    "description": "Hybrid event.\nTo enter the virtual seminar room, please use the following login credentials:\nZoom URL:\nhttps://uni-frankfurt.zoom-x.de/j/61215964575?pwd=kvOINlmRnzqDensLhFT385nGxtbuKJ.1\nMeeting ID: 612 1596 4575\nPassword: 552446\nAbstract:\nThis article advances a new perspective on corporate purpose, grounded in the institutional conditions under which corporate privileges are granted. Using a novel dataset of historical UK royal charters and a mixed-methods empirical strategy, the study shows that early corporations articulated specific, enforceable, and public facing purpose clauses because incorporation was a scarce privilege that allowed the Crown to impose obligations as a “asking price” for the benefits of the corporate form. Machine-learning evidence demonstrates that clauses reflecting Crown leverage cluster systematically and decline over time as incorporation becomes more accessible. The findings reframe corporate purpose not merely as a normative contest among stakeholders but as the product of institutional bargaining at the point of corporate formation, offering a historical lens for contemporary purpose debates.\nLink to paper:\nhttps://papers.ssrn.com/sol3/papers.cfm?abstract_id=6580099",
-    "description_html": "<p>Hybrid event.</p>\n<p>To enter the virtual seminar room, please use the following login credentials: </p>\n<p><strong>Zoom URL: </strong><a href=\"https://uni-frankfurt.zoom-x.de/j/61215964575?pwd=kvOINlmRnzqDensLhFT385nGxtbuKJ.1\" rel=\"noreferrer\" target=\"_blank\">https://uni-frankfurt.zoom-x.de/j/61215964575?pwd=kvOINlmRnzqDensLhFT385nGxtbuKJ.1</a><br/><strong>Meeting ID: 612 1596 4575</strong><br/><strong>Password: 552446</strong><br/><br/>Abstract:</p>\n<p><i>This article advances a new perspective on corporate purpose, grounded in the institutional conditions under which corporate privileges are granted. Using a novel dataset of historical UK royal charters and a mixed-methods empirical strategy, the study shows that early corporations articulated specific, enforceable, and public facing purpose clauses because incorporation was a scarce privilege that allowed the Crown to impose obligations as a “asking price” for the benefits of the corporate form. Machine-learning evidence demonstrates that clauses reflecting Crown leverage cluster systematically and decline over time as incorporation becomes more accessible. The findings reframe corporate purpose not merely as a normative contest among stakeholders but as the product of institutional bargaining at the point of corporate formation, offering a historical lens for contemporary purpose debates.</i></p>\n<p>Link to paper: <a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6580099\" rel=\"noreferrer\" target=\"_blank\">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6580099</a></p>",
-    "details_url": "https://www.lawfin.uni-frankfurt.de/events/event?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=279&cHash=a09eb7d1fc2102cda35bdd3ac99df251",
-    "source": "LawFin Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "finance_seminar",
     "seminar_name": "Finance Seminar Series",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar.html",
