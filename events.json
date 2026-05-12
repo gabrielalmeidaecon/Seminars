@@ -72,24 +72,6 @@
     "source": "Goethe University Frankfurt"
   },
   {
-    "seminar_id": "lawfin",
-    "seminar_name": "LawFin Research Seminar",
-    "seminar_page": "https://www.lawfin.uni-frankfurt.de/events/lawfin-research-seminars",
-    "title": "Capital Lock-in, Liquidity, the Separation of Ownership and Control",
-    "speaker": "Giuseppe Dari-Mattiacci",
-    "speaker_url": "https://www.uva.nl/en/profile/d/a/g.darimattiacci/g.darimattiacci.html",
-    "date": "2026-05-11",
-    "raw_date": "11 May 2026",
-    "time_info": "14:15–15:30",
-    "start_time": "14:15",
-    "end_time": "15:30",
-    "location": "HoF 1.01 + online",
-    "description": "Hybrid event.\nTo enter the virtual seminar room, please use the following login credentials:\nZoom URL:\nhttps://uni-frankfurt.zoom-x.de/j/62537088321?pwd=JvUBj2wqbZRlnXQmyoQlsbn06r11Fj.1\nMeeting ID: 625 3708 8321\nPassword: 254890\nAbstract:\nWho should own firm assets, the collection of investors or a distinct legal entity? In a partnership, individual investors own firm assets and retain the right to unilaterally withdraw their capital at will. If, instead, firm assets are owned by a distinct legal entity (the corporation), investors implicitly waive this right, locking capital in the firm. Capital lock-in facilitates long-term investments but carries a risk of inefficient continuation of unprofitable projects. In contrast, withdrawal at will can lead to the inefficient liquidation of profitable projects. In this paper I provide a theory of capital lock-in and the choice of organizational form.",
-    "description_html": "<p>Hybrid event.</p>\n<p>To enter the virtual seminar room, please use the following login credentials: </p>\n<p><strong>Zoom URL: </strong><a href=\"https://uni-frankfurt.zoom-x.de/j/62537088321?pwd=JvUBj2wqbZRlnXQmyoQlsbn06r11Fj.1\" rel=\"noreferrer\" target=\"_blank\">https://uni-frankfurt.zoom-x.de/j/62537088321?pwd=JvUBj2wqbZRlnXQmyoQlsbn06r11Fj.1</a><br/><strong>Meeting ID: 625 3708 8321</strong><br/><strong>Password: 254890</strong><br/><br/>Abstract:</p>\n<p><i>Who should own firm assets, the collection of investors or a distinct legal entity? In a partnership, individual investors own firm assets and retain the right to unilaterally withdraw their capital at will. If, instead, firm assets are owned by a distinct legal entity (the corporation), investors implicitly waive this right, locking capital in the firm. Capital lock-in facilitates long-term investments but carries a risk of inefficient continuation of unprofitable projects. In contrast, withdrawal at will can lead to the inefficient liquidation of profitable projects. In this paper I provide a theory of capital lock-in and the choice of organizational form.</i></p>",
-    "details_url": "https://www.lawfin.uni-frankfurt.de/events/event?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=288&cHash=9561de54cdf7d8a5f489c8df8e63f6c0",
-    "source": "LawFin Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "finance_seminar",
     "seminar_name": "Finance Seminar Series",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar.html",
