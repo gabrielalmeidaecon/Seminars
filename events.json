@@ -468,6 +468,24 @@
     "source": "Goethe University Frankfurt"
   },
   {
+    "seminar_id": "mm_brownbag",
+    "seminar_name": "Management & Microeconomics Brown Bag",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
+    "title": "TBA",
+    "speaker": "Anna Daelen (Federal Institute for Population Research)",
+    "speaker_url": "https://www.bib.bund.de/DE/Institut/Mitarbeiter/Daelen/Daelen.html",
+    "date": "2026-07-02",
+    "raw_date": "02 July 2026",
+    "time_info": "12:30–13:30",
+    "start_time": "12:30",
+    "end_time": "13:30",
+    "location": "RuW 4.201",
+    "description": "",
+    "description_html": "",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar/calendar-details-mm-bb/cal/event/tx_cal_phpicalendar/2026/07/02/2217.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
     "seminar_id": "qep",
     "seminar_name": "Quantitative Economic Policy Seminar",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/eq/seminars/quantitative-economic-policy-seminar.html",
