@@ -54,24 +54,6 @@
     "source": "Goethe University Frankfurt"
   },
   {
-    "seminar_id": "mm_brownbag",
-    "seminar_name": "Management & Microeconomics Brown Bag",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
-    "title": "Expertise at Work: New Technologies, New Skills, and Worker Impacts",
-    "speaker": "Cäcilia vom Baur",
-    "speaker_url": "",
-    "date": "2026-05-28",
-    "raw_date": "28 May 2026",
-    "time_info": "12:30–13:30",
-    "start_time": "12:30",
-    "end_time": "13:30",
-    "location": "RuW 4.201",
-    "description": "Title:\nExpertise at Work: New Technologies, New Skills, and Worker Impacts\nAbstract:\nDoes educational content respond to technological advances, and do such changes enable workers to acquire new relevant expertise? We study how digital technology transforms skill acquisition and the resulting impacts on workers' careers. We construct a novel database of legally binding training curricula spanning the near universe of vocational training in Germany over five decades, and link curriculum updates to breakthrough technologies using Natural Language Processing. Technological change spurs curriculum updates, and training content shifts toward digital and social skills while reducing routine-intensive task content, predominantly through new skill emergence. Curriculum updates account for two-thirds of the overall deroutinization in vocational skill supply over this period. Using administrative employer-employee data and a stacked difference-in-differences design, we show that curriculum updates enable workers to adapt to new skill demands: new-skilled workers earn higher wages, with wage increases of up to 5.5% for technology-exposed occupations. In contrast, the oldest occupational incumbents experience wage declines, indicating skill obsolescence. These findings highlight the central role of within-occupation skill supply adjustments in meeting evolving labor market demands.",
-    "description_html": "<p><strong>Title: </strong>Expertise at Work: New Technologies, New Skills, and Worker Impacts</p>\n<p><strong>Abstract:</strong> Does educational content respond to technological advances, and do such changes enable workers to acquire new relevant expertise? We study how digital technology transforms skill acquisition and the resulting impacts on workers' careers. We construct a novel database of legally binding training curricula spanning the near universe of vocational training in Germany over five decades, and link curriculum updates to breakthrough technologies using Natural Language Processing. Technological change spurs curriculum updates, and training content shifts toward digital and social skills while reducing routine-intensive task content, predominantly through new skill emergence. Curriculum updates account for two-thirds of the overall deroutinization in vocational skill supply over this period. Using administrative employer-employee data and a stacked difference-in-differences design, we show that curriculum updates enable workers to adapt to new skill demands: new-skilled workers earn higher wages, with wage increases of up to 5.5% for technology-exposed occupations. In contrast, the oldest occupational incumbents experience wage declines, indicating skill obsolescence. These findings highlight the central role of within-occupation skill supply adjustments in meeting evolving labor market demands.</p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar/calendar-details-mm-bb/cal/event/tx_cal_phpicalendar/2026/05/28/2195.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "qep",
     "seminar_name": "Quantitative Economic Policy Seminar",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/eq/seminars/quantitative-economic-policy-seminar.html",
