@@ -1,23 +1,5 @@
 [
   {
-    "seminar_id": "finance_seminar",
-    "seminar_name": "Finance Seminar Series",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar.html",
-    "title": "CANCELLED",
-    "speaker": "Cristian Badarinza, Frankfurt School of Finance",
-    "speaker_url": "https://www.frankfurt-school.de/de",
-    "date": "2026-05-26",
-    "raw_date": "26 May 2026",
-    "time_info": "12:00–13:15",
-    "start_time": "12:00",
-    "end_time": "13:15",
-    "location": "HoF E.01 / Deutsche Bank room",
-    "description": "",
-    "description_html": "",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar/calendar-details/cal/event/tx_cal_phpicalendar/2026/05/26/2186.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "qep",
     "seminar_name": "Quantitative Economic Policy Seminar",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/eq/seminars/quantitative-economic-policy-seminar.html",
@@ -57,7 +39,7 @@
     "seminar_id": "finance_seminar",
     "seminar_name": "Finance Seminar Series",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar.html",
-    "title": "tba",
+    "title": "The Impact of Mandatory Managerial Co-Investment on Mutual Fund Performance: Evidence from India",
     "speaker": "Mathijs Cosemans, Rotterdam School of Management",
     "speaker_url": "https://www.rsm.nl/",
     "date": "2026-06-09",
@@ -201,7 +183,7 @@
     "seminar_id": "qep",
     "seminar_name": "Quantitative Economic Policy Seminar",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/eq/seminars/quantitative-economic-policy-seminar.html",
-    "title": "TBA",
+    "title": "Occupations, Life-Cycle Wage Growth and Inequality",
     "speaker": "Gueorgui Kambourov (University of Toronto)",
     "speaker_url": "https://sites.google.com/site/gtkambourov/home",
     "date": "2026-06-18",
@@ -210,8 +192,8 @@
     "start_time": "14:00",
     "end_time": "15:15",
     "location": "RuW 4.202",
-    "description": "",
-    "description_html": "",
+    "description": "Abstract:\nTwo robust empirical facts are that mean wages and cross-sectional wage dispersion both in-\ncrease over the life cycle. We study how these two changes vary across occupations and document\na strong positive correlation: occupations with high mean wage growth over the life cycle also\nexhibit greater increases in cross-sectional wage dispersion. We develop a novel dynamic Roy\nmodel that features both static and dynamic comparative advantage and show that it can ac-\ncount for the variation in life cycle wage distributions across high and low wage occupations.\nDynamic comparative advantage reflects individual heterogeneity in occupation specific learning\nabilities and is the dominant force that shapes occupation choice in our model. We highlight\nseveral important implications of dynamic comparative advantage and show that our model\ncaptures the data better than a benchmark model that features persistent shocks.",
+    "description_html": "<p>Abstract:</p>\n<p>Two robust empirical facts are that mean wages and cross-sectional wage dispersion both in-</p>\n<p>crease over the life cycle. We study how these two changes vary across occupations and document</p>\n<p>a strong positive correlation: occupations with high mean wage growth over the life cycle also</p>\n<p>exhibit greater increases in cross-sectional wage dispersion. We develop a novel dynamic Roy</p>\n<p>model that features both static and dynamic comparative advantage and show that it can ac-</p>\n<p>count for the variation in life cycle wage distributions across high and low wage occupations.</p>\n<p>Dynamic comparative advantage reflects individual heterogeneity in occupation specific learning</p>\n<p>abilities and is the dominant force that shapes occupation choice in our model. We highlight</p>\n<p>several important implications of dynamic comparative advantage and show that our model</p>\n<p>captures the data better than a benchmark model that features persistent shocks.</p>",
     "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/eq/seminars/quantitative-economic-policy-seminar/calendar-details/cal/event/tx_cal_phpicalendar/2026/06/18/2165.html",
     "source": "Goethe University Frankfurt"
   },
@@ -450,6 +432,24 @@
     "source": "Goethe University Frankfurt"
   },
   {
+    "seminar_id": "finance_brownbag",
+    "seminar_name": "Finance Brown Bag",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/finance-brown-bag.html",
+    "title": "tba",
+    "speaker": "Moritz Dauber (Visitor from Universität Innsbruck)",
+    "speaker_url": "",
+    "date": "2026-07-08",
+    "raw_date": "08 July 2026",
+    "time_info": "14:00–15:00",
+    "start_time": "14:00",
+    "end_time": "15:00",
+    "location": "HoF E.20 (DZ Bank)",
+    "description": "Abstract:\ntba",
+    "description_html": "<p><strong>Abstract:</strong> tba</p>",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/07/08/2212.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
     "seminar_id": "mm_brownbag",
     "seminar_name": "Management & Microeconomics Brown Bag",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
@@ -518,7 +518,7 @@
     "location": "HoF E.20 (DZ Bank)",
     "description": "Abstract:\ntba",
     "description_html": "<p><strong>Abstract:</strong> tba</p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/07/15/2212.html",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/07/15/2219.html",
     "source": "Goethe University Frankfurt"
   },
   {
