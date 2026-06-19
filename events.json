@@ -72,24 +72,6 @@
     "source": "Goethe University Frankfurt"
   },
   {
-    "seminar_id": "mm_brownbag",
-    "seminar_name": "Management & Microeconomics Brown Bag",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
-    "title": "The Affective Embeddedness of Design Innovation",
-    "speaker": "Egbert Amoncio (Goethe University Frankfurt)",
-    "speaker_url": "",
-    "date": "2026-06-18",
-    "raw_date": "18 June 2026",
-    "time_info": "12:30–13:30",
-    "start_time": "12:30",
-    "end_time": "13:30",
-    "location": "RuW 4.201",
-    "description": "Title:\nThe Affective Embeddedness of Design Innovation (with Gaétan de Rassenfosse)\nAbstract:\nHow does innovation create value after purchase? We argue that design innovation increases use value through affective embeddedness: the extent to which new design features incorporated into a product become recurring sources of positive emotional response during use. We test this argument using 7,604 patented consumer products from the IPRoduct database matched to 226,321 Amazon reviews and apply a large language model to score five post-purchase evaluative dimensions. We find that design innovation increases use value, and that this effect operates primarily through emotional response rather than aesthetic appeal, functionality, social status, or credibility. Consistent with affective embeddedness, the effect is substantially stronger for hedonic than utilitarian products. These findings extend the demand-side strategy by shifting attention from how innovation shapes value before or at purchase to how it creates value after purchase.",
-    "description_html": "<p><strong>Title: </strong>The Affective Embeddedness of Design Innovation (with Gaétan de Rassenfosse)</p>\n<p><strong>Abstract:</strong> How does innovation create value after purchase? We argue that design innovation increases use value through affective embeddedness: the extent to which new design features incorporated into a product become recurring sources of positive emotional response during use. We test this argument using 7,604 patented consumer products from the IPRoduct database matched to 226,321 Amazon reviews and apply a large language model to score five post-purchase evaluative dimensions. We find that design innovation increases use value, and that this effect operates primarily through emotional response rather than aesthetic appeal, functionality, social status, or credibility. Consistent with affective embeddedness, the effect is substantially stronger for hedonic than utilitarian products. These findings extend the demand-side strategy by shifting attention from how innovation shapes value before or at purchase to how it creates value after purchase.</p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar/calendar-details-mm-bb/cal/event/tx_cal_phpicalendar/2026/06/18/2175.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "qep",
     "seminar_name": "Quantitative Economic Policy Seminar",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/eq/seminars/quantitative-economic-policy-seminar.html",
