@@ -90,24 +90,6 @@
     "source": "Goethe University Frankfurt"
   },
   {
-    "seminar_id": "mm_brownbag",
-    "seminar_name": "Management & Microeconomics Brown Bag",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
-    "title": "Multidimensional Skill in Project Teams",
-    "speaker": "Tristan Stahl",
-    "speaker_url": "",
-    "date": "2026-06-25",
-    "raw_date": "25 June 2026",
-    "time_info": "12:30–13:30",
-    "start_time": "12:30",
-    "end_time": "13:30",
-    "location": "RuW 4.201",
-    "description": "Title:\nMultidimensional Skill in Project Teams\nAbstract:\nThis paper studies multidimensional banker skills in project teams using data from a financial institution. I construct empirical-Bayes measures of project leader skill from repeated project outcomes across four performance dimensions and show that these measures predict future project success. Despite this predictive power, promotions respond more strongly to the number of projects led than to measured skill, suggesting that firms may underuse productivity-relevant information when promoting talent. Finally, I examine whether these skills are transmitted within teams and find evidence of within-dimension skill transmission.",
-    "description_html": "<p><strong>Title: </strong>Multidimensional Skill in Project Teams</p>\n<p><strong>Abstract:</strong> This paper studies multidimensional banker skills in project teams using data from a financial institution. I construct empirical-Bayes measures of project leader skill from repeated project outcomes across four performance dimensions and show that these measures predict future project success. Despite this predictive power, promotions respond more strongly to the number of projects led than to measured skill, suggesting that firms may underuse productivity-relevant information when promoting talent. Finally, I examine whether these skills are transmitted within teams and find evidence of within-dimension skill transmission.</p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar/calendar-details-mm-bb/cal/event/tx_cal_phpicalendar/2026/06/25/2215.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "lawfin",
     "seminar_name": "LawFin Research Seminar",
     "seminar_page": "https://www.lawfin.uni-frankfurt.de/events/lawfin-research-seminars",
@@ -129,7 +111,7 @@
     "seminar_id": "finance_seminar",
     "seminar_name": "Finance Seminar Series",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar.html",
-    "title": "tba",
+    "title": "Credit Without Proximity: Informational Frictions and Unequal Gains from Technology",
     "speaker": "Erica Jiang, UCLA Anderson School of Management",
     "speaker_url": "https://www.anderson.ucla.edu/",
     "date": "2026-06-30",
@@ -159,6 +141,24 @@
     "description": "Title:\nTracing the Spread of Inflation Narratives: The Transmission of FOMC Communication to Household Expectations via the Media\nAbstract:\nHouseholds know little about central banking, yet research shows that they adjust their expectations around monetary policy announcements. We address this puzzle by showing that Federal Reserve inflation narratives – causal explanations for rising inflation articulated in Federal Open Market Committee (FOMC) communications – are transmitted to households via the media, thereby influencing how they form expectations. Using hand- annotated FOMC press conference transcripts, we evaluate large language models (LLM) in their capability to identify inflation narratives. We then link these narratives to contemporaneous New York Times coverage and household expectation data to trace how FOMC communication shapes household expectations. By employing an event-study IV approach, we exploit shifts in FOMC narrative emphasis to instrument high-frequency variation in media coverage. Each additional FOMC inflation narrative raises household inflation expectations by about half a percentage point through the media channel. The effect is concentrated among financially literate university graduates.",
     "description_html": "<p><strong>Title: </strong>Tracing the Spread of Inflation Narratives: The Transmission of FOMC Communication to Household Expectations via the Media </p>\n<p><strong>Abstract:</strong> Households know little about central banking, yet research shows that they adjust their expectations around monetary policy announcements. We address this puzzle by showing that Federal Reserve inflation narratives – causal explanations for rising inflation articulated in Federal Open Market Committee (FOMC) communications – are transmitted to households via the media, thereby influencing how they form expectations. Using hand- annotated FOMC press conference transcripts, we evaluate large language models (LLM) in their capability to identify inflation narratives. We then link these narratives to contemporaneous New York Times coverage and household expectation data to trace how FOMC communication shapes household expectations. By employing an event-study IV approach, we exploit shifts in FOMC narrative emphasis to instrument high-frequency variation in media coverage. Each additional FOMC inflation narrative raises household inflation expectations by about half a percentage point through the media channel. The effect is concentrated among financially literate university graduates.</p>\n<p><span lang=\"EN-US\"></span></p>",
     "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar/calendar-details/cal/event/tx_cal_phpicalendar/2026/06/30/2170.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
+    "seminar_id": "finance_brownbag",
+    "seminar_name": "Finance Brown Bag",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/finance-brown-bag.html",
+    "title": "Risk Appetite and Monetary Transmission",
+    "speaker": "Michael Bauer (Visitor from the Federal Reserve Bank of San Francisco)",
+    "speaker_url": "",
+    "date": "2026-07-01",
+    "raw_date": "01 July 2026",
+    "time_info": "14:00–15:00",
+    "start_time": "14:00",
+    "end_time": "15:00",
+    "location": "HoF E.20 (DZ Bank)",
+    "description": "Abstract:\nWe construct a new high-frequency measure of changes in risk appetite around Federal Open Market Committee (FOMC) meetings. Fed policy actions and communication have substantial effects on risk appetite, consistent with the literature on the risk-taking channel of monetary policy. Most of the variation in asset prices and risk appetite is unexplained by conventional interest-rate surprises, which raises the possibility of an important role of risk appetite in monetary transmission. Using a proxy SVAR with two separately-identified shocks, we find that risk appetite shocks have large, significant, and theory-consistent effects on prices and real activity. By contrast, the effects of risk-free rate shocks become insignificant or switch signs once the risk appetite shock is included. This evidence suggests that monetary transmission operates primarily through risk asset prices and risk appetite. We argue that standard estimation of monetary transmission based solely on interest-rate surprises misses most of these effects for two reasons: First, the impact of interest-rate policy on asset prices is time-varying and state-dependent. Second, central bank communication can affect risk appetite and asset prices in ways that go beyond changes in the expected policy path.",
+    "description_html": "<p><strong>Abstract:</strong> We construct a new high-frequency measure of changes in risk appetite around Federal Open Market Committee (FOMC) meetings. Fed policy actions and communication have substantial effects on risk appetite, consistent with the literature on the risk-taking channel of monetary policy. Most of the variation in asset prices and risk appetite is unexplained by conventional interest-rate surprises, which raises the possibility of an important role of risk appetite in monetary transmission. Using a proxy SVAR with two separately-identified shocks, we find that risk appetite shocks have large, significant, and theory-consistent effects on prices and real activity. By contrast, the effects of risk-free rate shocks become insignificant or switch signs once the risk appetite shock is included. This evidence suggests that monetary transmission operates primarily through risk asset prices and risk appetite. We argue that standard estimation of monetary transmission based solely on interest-rate surprises misses most of these effects for two reasons: First, the impact of interest-rate policy on asset prices is time-varying and state-dependent. Second, central bank communication can affect risk appetite and asset prices in ways that go beyond changes in the expected policy path.</p>",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/07/01/2219.html",
     "source": "Goethe University Frankfurt"
   },
   {
@@ -338,7 +338,7 @@
     "location": "HoF E.20 (DZ Bank)",
     "description": "Abstract:\ntba",
     "description_html": "<p><strong>Abstract:</strong> tba</p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/07/15/2219.html",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/07/15/2220.html",
     "source": "Goethe University Frankfurt"
   },
   {
