@@ -90,24 +90,6 @@
     "source": "Goethe University Frankfurt"
   },
   {
-    "seminar_id": "finance_brownbag",
-    "seminar_name": "Finance Brown Bag",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/finance-brown-bag.html",
-    "title": "Common Factors in Currency Characteristics",
-    "speaker": "Moritz Dauber (Visitor from Universität Innsbruck)",
-    "speaker_url": "",
-    "date": "2026-07-08",
-    "raw_date": "08 July 2026",
-    "time_info": "14:00–15:00",
-    "start_time": "14:00",
-    "end_time": "15:00",
-    "location": "HoF E.20 (DZ Bank)",
-    "description": "Abstract:\nWe study the factor structure of currency characteristics using a tensor factor model that jointly captures variation across currencies, characteristics, and time. The resulting compressed characteristics factors (CCF) outperform standard currency factors in pricing a broad cross-section of currency portfolios as well as formal spanning tests. The first CCF resembles carry trades while the second is a time-varying value-momentum spread factor that helps reconcile differing conclusions on factors beyond dollar and carry. This factor generates large positive returns during carry-crash episodes via positions outside of crowded trades, consistent with the sudden unwinding of speculative positions due to constrained intermediary capital.",
-    "description_html": "<p><strong>Abstract:</strong> We study the factor structure of currency characteristics using a tensor factor model that jointly captures variation across currencies, characteristics, and time. The resulting compressed characteristics factors (CCF) outperform standard currency factors in pricing a broad cross-section of currency portfolios as well as formal spanning tests. The first CCF resembles carry trades while the second is a time-varying value-momentum spread factor that helps reconcile differing conclusions on factors beyond dollar and carry. This factor generates large positive returns during carry-crash episodes via positions outside of crowded trades, consistent with the sudden unwinding of speculative positions due to constrained intermediary capital.</p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/07/08/2212.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "mm_brownbag",
     "seminar_name": "Management & Microeconomics Brown Bag",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
