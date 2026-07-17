@@ -90,24 +90,6 @@
     "source": "Goethe University Frankfurt"
   },
   {
-    "seminar_id": "mm_brownbag",
-    "seminar_name": "Management & Microeconomics Brown Bag",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
-    "title": "A Note on Endogenous Information Costs in Rational Inattention via Convex Duality",
-    "speaker": "Stefan Behringer (Bielefeld University)",
-    "speaker_url": "https://www.stefanbehringer.com/",
-    "date": "2026-07-16",
-    "raw_date": "16 July 2026",
-    "time_info": "12:30–13:30",
-    "start_time": "12:30",
-    "end_time": "13:30",
-    "location": "RuW 4.201",
-    "description": "Title:\nA Note on Endogenous Information Costs in Rational Inattention via Convex Duality\nAbstract:\nThe rational inattention literature employs two formulations of information costs: a hard constraint bounding mutual information by a Shannon capacity, and a soft constraint penalising mutual Information by a linear entropy penalty. We establish the structural relationship between these formulations via convex duality theory and develop its consequences. First, the hard-constraint value function, the Stratonovich/Shannon Value of Information (VoI), is the primitive object of rate distortion theory. The soft-constraint objective is its Fenchel conjugate, recoverable without parametric restriction, and the marginal cost of information is identified endogenously as the slope of the VoI; the linear entropy penalty is therefore a special case, not a maintained assumption. Second, the VoI generically depends on the full posterior distribution; it collapses to a function of posterior variance alone if and only if utility is quadratic, the prior is Gaussian, and optimal signals preserve conjugacy, three jointly necessary conditions. Third, the optimal signal Distribution takes an exponential form and generates a class of convex Risk measures; in a portfolio application, tail risk substantially amplifies information value relative to a mean-variance equivalent benchmark, a distinction that variance-based analysis cannot detect.",
-    "description_html": "<p><strong>Title: </strong>A Note on Endogenous Information Costs in Rational Inattention via Convex Duality</p>\n<p><strong>Abstract:</strong> The rational inattention literature employs two formulations of information costs: a hard constraint bounding mutual information by a Shannon capacity, and a soft constraint penalising mutual Information by a linear entropy penalty. We establish the structural relationship between these formulations via convex duality theory and develop its consequences. First, the hard-constraint value function, the Stratonovich/Shannon Value of Information (VoI), is the primitive object of rate distortion theory. The soft-constraint objective is its Fenchel conjugate, recoverable without parametric restriction, and the marginal cost of information is identified endogenously as the slope of the VoI; the linear entropy penalty is therefore a special case, not a maintained assumption. Second, the VoI generically depends on the full posterior distribution; it collapses to a function of posterior variance alone if and only if utility is quadratic, the prior is Gaussian, and optimal signals preserve conjugacy, three jointly necessary conditions. Third, the optimal signal Distribution takes an exponential form and generates a class of convex Risk measures; in a portfolio application, tail risk substantially amplifies information value relative to a mean-variance equivalent benchmark, a distinction that variance-based analysis cannot detect.</p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar/calendar-details-mm-bb/cal/event/tx_cal_phpicalendar/2026/07/16/2218.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "qep",
     "seminar_name": "Quantitative Economic Policy Seminar",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/eq/seminars/quantitative-economic-policy-seminar.html",
