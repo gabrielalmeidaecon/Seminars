@@ -72,24 +72,6 @@
     "source": "Goethe University Frankfurt"
   },
   {
-    "seminar_id": "mm_amos",
-    "seminar_name": "AMOS Seminar (Management & Microeconomics)",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/amos.html",
-    "title": "Workplace Communication and Productivity: Insights from Wearable Sensor Data and Leadership Training Program",
-    "speaker": "Tsuyoshi Tsuru (Hitotsubashi University)",
-    "speaker_url": "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=200901099911389317",
-    "date": "2026-07-22",
-    "raw_date": "22 July 2026",
-    "time_info": "14:15–15:30",
-    "start_time": "14:15",
-    "end_time": "15:30",
-    "location": "RuW 4.201",
-    "description": "Title:\nWorkplace Communication and Productivity: Insights from Wearable Sensor Data and Leadership Training Program\nAbstract:\nThis paper provides causal evidence that reducing communication costs reshapes the internal organization of problem solving within firms. Guided by Garicano’s (2000) model of hierarchical knowledge organization, we test whether lowering communication barriers induces vertical knowledge transfers and improves productivity. We study a corporate IT support firm where employees resolve heterogeneous technical inquiries, and we collect minute-level face-to-face interaction data using wearable sensors. Exploiting the introduction of a leadership training program as an exogenous reduction in intra-team communication costs, we estimate its effects using difference-in-differences approach. Teams led by trained leaders exhibit a sizable increase in communication from junior to senior members and achieve substantially faster resolution of difficult inquiries. The results demonstrate that reducing communication frictions enables junior employees to leverage senior expertise and endogenously generates hierarchical problem-solving structures, as predicted by Garicano (2000).",
-    "description_html": "<p><strong>Title: </strong>Workplace Communication and Productivity: Insights from Wearable Sensor Data and Leadership Training Program</p>\n<p><strong>Abstract:</strong> This paper provides causal evidence that reducing communication costs reshapes the internal organization of problem solving within firms. Guided by Garicano’s (2000) model of hierarchical knowledge organization, we test whether lowering communication barriers induces vertical knowledge transfers and improves productivity. We study a corporate IT support firm where employees resolve heterogeneous technical inquiries, and we collect minute-level face-to-face interaction data using wearable sensors. Exploiting the introduction of a leadership training program as an exogenous reduction in intra-team communication costs, we estimate its effects using difference-in-differences approach. Teams led by trained leaders exhibit a sizable increase in communication from junior to senior members and achieve substantially faster resolution of difficult inquiries. The results demonstrate that reducing communication frictions enables junior employees to leverage senior expertise and endogenously generates hierarchical problem-solving structures, as predicted by Garicano (2000).</p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/amos/calendar-details-mm-seminar/cal/event/tx_cal_phpicalendar/2026/07/22/2216.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "mm_brownbag",
     "seminar_name": "Management & Microeconomics Brown Bag",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
