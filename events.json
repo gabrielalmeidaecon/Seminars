@@ -54,6 +54,24 @@
     "source": "Goethe University Frankfurt"
   },
   {
+    "seminar_id": "lawfin",
+    "seminar_name": "LawFin Research Seminar",
+    "seminar_page": "https://www.lawfin.uni-frankfurt.de/events/lawfin-research-seminars",
+    "title": "Stung into Action? Cyber Risk Management After a Breach",
+    "speaker": "Emina Ademovic",
+    "speaker_url": "https://eminaademovic.com/",
+    "date": "2026-09-07",
+    "raw_date": "07 Sep 2026",
+    "time_info": "14:15–15:30",
+    "start_time": "14:15",
+    "end_time": "15:30",
+    "location": "HoF 1.01 + online",
+    "description": "Hybrid event.\nTo enter the virtual seminar room, please use the following login credentials:\nZoom URL:\nhttps://uni-frankfurt.zoom-x.de/j/69051662513?pwd=ylK2ozLt3090SNTwVFKUjb8DT0EV8S.1\nMeeting ID: 690 5166 2513\nPassword: 490462\nAbstract:\nWe study how cyber incidents reshape firms’ incentives to invest in cybersecurity and whether these investments pay off. Using novel measures from job postings and employee records, we document large and persistent post-incident improvements that move affected firms ahead of comparable firms in both cybersecurity human capital and technology. Firms with stronger pre-incident in-house cybersecurity capabilities experience smaller negative abnormal returns when incidents occur, whereas firms with greater reliance on external cloud infrastructure experience larger losses. Incident disclosure induces precautionary cybersecurity investment among similarly exposed firms, though firms' responses also raise reliance on common providers, contributing to systemic risk.",
+    "description_html": "<p>Hybrid event.</p>\n<p>To enter the virtual seminar room, please use the following login credentials: </p>\n<p><strong>Zoom URL: </strong><a href=\"https://uni-frankfurt.zoom-x.de/j/69051662513?pwd=ylK2ozLt3090SNTwVFKUjb8DT0EV8S.1\" rel=\"noreferrer\" target=\"_blank\">https://uni-frankfurt.zoom-x.de/j/69051662513?pwd=ylK2ozLt3090SNTwVFKUjb8DT0EV8S.1</a><br/><strong>Meeting ID: 690 5166 2513</strong><br/><strong>Password: 490462</strong><br/><br/>Abstract:</p>\n<p><i>We study how cyber incidents reshape firms’ incentives to invest in cybersecurity and whether these investments pay off. Using novel measures from job postings and employee records, we document large and persistent post-incident improvements that move affected firms ahead of comparable firms in both cybersecurity human capital and technology. Firms with stronger pre-incident in-house cybersecurity capabilities experience smaller negative abnormal returns when incidents occur, whereas firms with greater reliance on external cloud infrastructure experience larger losses. Incident disclosure induces precautionary cybersecurity investment among similarly exposed firms, though firms' responses also raise reliance on common providers, contributing to systemic risk.</i></p>",
+    "details_url": "https://www.lawfin.uni-frankfurt.de/events/event?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=303&cHash=c93d8b484b3c83d71e969226c7c48f0b",
+    "source": "LawFin Goethe University Frankfurt"
+  },
+  {
     "seminar_id": "mm_brownbag",
     "seminar_name": "Management & Microeconomics Brown Bag",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
