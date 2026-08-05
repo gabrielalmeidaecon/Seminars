@@ -54,6 +54,24 @@
     "source": "LawFin Goethe University Frankfurt"
   },
   {
+    "seminar_id": "finance_seminar",
+    "seminar_name": "Finance Seminar Series",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar.html",
+    "title": "tba",
+    "speaker": "Oliver Spalt, University Mannheim",
+    "speaker_url": "https://www.bwl.uni-mannheim.de/spalt/team/prof-dr-oliver-spalt/",
+    "date": "2026-10-13",
+    "raw_date": "13 October 2026",
+    "time_info": "12:00–13:15",
+    "start_time": "12:00",
+    "end_time": "13:15",
+    "location": "HoF E.01 / Deutsche Bank room",
+    "description": "",
+    "description_html": "",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar/calendar-details/cal/event/tx_cal_phpicalendar/2026/10/13/2222.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
     "seminar_id": "mm_brownbag",
     "seminar_name": "Management & Microeconomics Brown Bag",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
