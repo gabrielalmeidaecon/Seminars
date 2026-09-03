@@ -162,6 +162,24 @@
     "source": "Goethe University Frankfurt"
   },
   {
+    "seminar_id": "finance_brownbag",
+    "seminar_name": "Finance Brown Bag",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/finance-brown-bag.html",
+    "title": "tba",
+    "speaker": "Ngoc Lan Anh Vo (GSEFM / Goethe University)",
+    "speaker_url": "",
+    "date": "2026-11-11",
+    "raw_date": "11 November 2026",
+    "time_info": "14:00–15:00",
+    "start_time": "14:00",
+    "end_time": "15:00",
+    "location": "HoF E.20 (DZ Bank)",
+    "description": "Abstract:\ntba.",
+    "description_html": "<p><strong>Abstract:</strong> tba.</p>",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/11/11/2220.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
     "seminar_id": "mm_brownbag",
     "seminar_name": "Management & Microeconomics Brown Bag",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
