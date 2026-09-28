@@ -36,6 +36,24 @@
     "source": "Goethe University Frankfurt"
   },
   {
+    "seminar_id": "mm_brownbag",
+    "seminar_name": "Management & Microeconomics Brown Bag",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
+    "title": "TBA",
+    "speaker": "Cäcilia vom Baur",
+    "speaker_url": "",
+    "date": "2026-10-15",
+    "raw_date": "15 October 2026",
+    "time_info": "12:30–13:30",
+    "start_time": "12:30",
+    "end_time": "13:30",
+    "location": "RuW 4.201",
+    "description": "",
+    "description_html": "",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar/calendar-details-mm-bb/cal/event/tx_cal_phpicalendar/2026/10/15/2267.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
     "seminar_id": "finance_seminar",
     "seminar_name": "Finance Seminar Series",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar.html",
@@ -194,7 +212,7 @@
     "location": "HoF E.20 (DZ Bank)",
     "description": "Abstract:\ntba.",
     "description_html": "<p><strong>Abstract:</strong> tba.</p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/11/11/2220.html",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/11/04/2220.html",
     "source": "Goethe University Frankfurt"
   },
   {
@@ -249,6 +267,24 @@
     "description": "",
     "description_html": "",
     "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar/calendar-details/cal/event/tx_cal_phpicalendar/2026/11/10/2226.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
+    "seminar_id": "finance_brownbag",
+    "seminar_name": "Finance Brown Bag",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/finance-brown-bag.html",
+    "title": "tba",
+    "speaker": "Ngoc Lan Anh Vo (GSEFM / Goethe University)",
+    "speaker_url": "",
+    "date": "2026-11-11",
+    "raw_date": "11 November 2026",
+    "time_info": "14:00–15:00",
+    "start_time": "14:00",
+    "end_time": "15:00",
+    "location": "HoF E.20 (DZ Bank)",
+    "description": "Abstract:\ntba.",
+    "description_html": "<p><strong>Abstract:</strong> tba.</p>",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/11/11/2266.html",
     "source": "Goethe University Frankfurt"
   },
   {
@@ -324,6 +360,24 @@
     "source": "Goethe University Frankfurt"
   },
   {
+    "seminar_id": "mm_brownbag",
+    "seminar_name": "Management & Microeconomics Brown Bag",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
+    "title": "TBA",
+    "speaker": "Alisa Weinberger",
+    "speaker_url": "",
+    "date": "2026-11-19",
+    "raw_date": "19 November 2026",
+    "time_info": "12:30–13:30",
+    "start_time": "12:30",
+    "end_time": "13:30",
+    "location": "RuW 4.201",
+    "description": "",
+    "description_html": "",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar/calendar-details-mm-bb/cal/event/tx_cal_phpicalendar/2026/11/19/2268.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
     "seminar_id": "finance_seminar",
     "seminar_name": "Finance Seminar Series",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar.html",
@@ -339,6 +393,24 @@
     "description": "",
     "description_html": "",
     "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar/calendar-details/cal/event/tx_cal_phpicalendar/2026/11/24/2228.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
+    "seminar_id": "mm_brownbag",
+    "seminar_name": "Management & Microeconomics Brown Bag",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
+    "title": "TBA",
+    "speaker": "Demas Schuler-Koh",
+    "speaker_url": "",
+    "date": "2026-11-26",
+    "raw_date": "26 November 2026",
+    "time_info": "12:30–13:00",
+    "start_time": "12:30",
+    "end_time": "13:00",
+    "location": "RuW 4.201",
+    "description": "",
+    "description_html": "",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar/calendar-details-mm-bb/cal/event/tx_cal_phpicalendar/2026/11/26/2269.html",
     "source": "Goethe University Frankfurt"
   },
   {
@@ -360,6 +432,24 @@
     "source": "Goethe University Frankfurt"
   },
   {
+    "seminar_id": "mm_brownbag",
+    "seminar_name": "Management & Microeconomics Brown Bag",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
+    "title": "TBA",
+    "speaker": "Vincent Selz",
+    "speaker_url": "",
+    "date": "2026-12-03",
+    "raw_date": "03 December 2026",
+    "time_info": "12:30–13:30",
+    "start_time": "12:30",
+    "end_time": "13:30",
+    "location": "RuW 4.201",
+    "description": "",
+    "description_html": "",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar/calendar-details-mm-bb/cal/event/tx_cal_phpicalendar/2026/12/03/2271.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
     "seminar_id": "finance_seminar",
     "seminar_name": "Finance Seminar Series",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar.html",
@@ -375,6 +465,24 @@
     "description": "",
     "description_html": "",
     "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar/calendar-details/cal/event/tx_cal_phpicalendar/2026/12/08/2230.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
+    "seminar_id": "mm_brownbag",
+    "seminar_name": "Management & Microeconomics Brown Bag",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
+    "title": "TBA",
+    "speaker": "Tristan Stahl",
+    "speaker_url": "",
+    "date": "2026-12-10",
+    "raw_date": "10 December 2026",
+    "time_info": "12:30–13:30",
+    "start_time": "12:30",
+    "end_time": "13:30",
+    "location": "RuW 4.201",
+    "description": "",
+    "description_html": "",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar/calendar-details-mm-bb/cal/event/tx_cal_phpicalendar/2026/12/10/2272.html",
     "source": "Goethe University Frankfurt"
   },
   {
@@ -414,6 +522,24 @@
     "source": "Goethe University Frankfurt"
   },
   {
+    "seminar_id": "mm_brownbag",
+    "seminar_name": "Management & Microeconomics Brown Bag",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
+    "title": "TBA",
+    "speaker": "Jan Reitz",
+    "speaker_url": "",
+    "date": "2026-12-17",
+    "raw_date": "17 December 2026",
+    "time_info": "12:30–13:30",
+    "start_time": "12:30",
+    "end_time": "13:30",
+    "location": "RuW 4.201",
+    "description": "",
+    "description_html": "",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar/calendar-details-mm-bb/cal/event/tx_cal_phpicalendar/2026/12/17/2273.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
     "seminar_id": "finance_seminar",
     "seminar_name": "Finance Seminar Series",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar.html",
@@ -450,6 +576,24 @@
     "source": "Goethe University Frankfurt"
   },
   {
+    "seminar_id": "mm_brownbag",
+    "seminar_name": "Management & Microeconomics Brown Bag",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
+    "title": "TBA",
+    "speaker": "Olaf Kehne",
+    "speaker_url": "",
+    "date": "2027-01-14",
+    "raw_date": "14 January 2027",
+    "time_info": "12:30–13:00",
+    "start_time": "12:30",
+    "end_time": "13:00",
+    "location": "RuW 4.201",
+    "description": "",
+    "description_html": "",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar/calendar-details-mm-bb/cal/event/tx_cal_phpicalendar/2027/01/14/2274.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
     "seminar_id": "finance_seminar",
     "seminar_name": "Finance Seminar Series",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar.html",
@@ -465,6 +609,24 @@
     "description": "",
     "description_html": "",
     "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar/calendar-details/cal/event/tx_cal_phpicalendar/2027/01/19/2233.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
+    "seminar_id": "mm_brownbag",
+    "seminar_name": "Management & Microeconomics Brown Bag",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
+    "title": "TBA",
+    "speaker": "Linus Buettner",
+    "speaker_url": "",
+    "date": "2027-01-21",
+    "raw_date": "21 January 2027",
+    "time_info": "12:30–13:30",
+    "start_time": "12:30",
+    "end_time": "13:30",
+    "location": "RuW 4.201",
+    "description": "",
+    "description_html": "",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar/calendar-details-mm-bb/cal/event/tx_cal_phpicalendar/2027/01/21/2276.html",
     "source": "Goethe University Frankfurt"
   },
   {
@@ -504,6 +666,24 @@
     "source": "Goethe University Frankfurt"
   },
   {
+    "seminar_id": "mm_brownbag",
+    "seminar_name": "Management & Microeconomics Brown Bag",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
+    "title": "TBA",
+    "speaker": "Ella Schirra",
+    "speaker_url": "",
+    "date": "2027-01-28",
+    "raw_date": "28 January 2027",
+    "time_info": "12:30–13:00",
+    "start_time": "12:30",
+    "end_time": "13:00",
+    "location": "RuW 4.201",
+    "description": "",
+    "description_html": "",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar/calendar-details-mm-bb/cal/event/tx_cal_phpicalendar/2027/01/28/2277.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
     "seminar_id": "finance_seminar",
     "seminar_name": "Finance Seminar Series",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar.html",
@@ -519,6 +699,24 @@
     "description": "",
     "description_html": "",
     "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar/calendar-details/cal/event/tx_cal_phpicalendar/2027/02/02/2235.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
+    "seminar_id": "mm_brownbag",
+    "seminar_name": "Management & Microeconomics Brown Bag",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
+    "title": "TBA",
+    "speaker": "Zhuokun Liu",
+    "speaker_url": "",
+    "date": "2027-02-04",
+    "raw_date": "04 February 2027",
+    "time_info": "12:30–13:30",
+    "start_time": "12:30",
+    "end_time": "13:30",
+    "location": "RuW 4.201",
+    "description": "",
+    "description_html": "",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar/calendar-details-mm-bb/cal/event/tx_cal_phpicalendar/2027/02/04/2279.html",
     "source": "Goethe University Frankfurt"
   },
   {
