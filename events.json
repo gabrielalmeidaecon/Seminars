@@ -54,6 +54,24 @@
     "source": "Goethe University Frankfurt"
   },
   {
+    "seminar_id": "lawfin",
+    "seminar_name": "LawFin Research Seminar",
+    "seminar_page": "https://www.lawfin.uni-frankfurt.de/events/lawfin-research-seminars",
+    "title": "TBA",
+    "speaker": "Patrick Corrigan",
+    "speaker_url": "https://law.nd.edu/directory/patrick-corrigan/",
+    "date": "2026-10-19",
+    "raw_date": "19 Oct 2026",
+    "time_info": "14:15–15:30",
+    "start_time": "14:15",
+    "end_time": "15:30",
+    "location": "HoF 1.01 + online",
+    "description": "Hybrid event.\nFurther details will follow soon.",
+    "description_html": "<p>Hybrid event.</p>\n<p>Further details will follow soon.</p>",
+    "details_url": "https://www.lawfin.uni-frankfurt.de/events/event?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=323&cHash=a280f5c504a60f4091f29945bd3a15d6",
+    "source": "LawFin Goethe University Frankfurt"
+  },
+  {
     "seminar_id": "finance_seminar",
     "seminar_name": "Finance Seminar Series",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar.html",
