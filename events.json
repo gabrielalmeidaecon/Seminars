@@ -18,24 +18,6 @@
     "source": "Goethe University Frankfurt"
   },
   {
-    "seminar_id": "finance_brownbag",
-    "seminar_name": "Finance Brown Bag",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/finance-brown-bag.html",
-    "title": "tba",
-    "speaker": "Daniel Liebler (Goethe University)",
-    "speaker_url": "",
-    "date": "2026-10-14",
-    "raw_date": "14 October 2026",
-    "time_info": "14:00–15:00",
-    "start_time": "14:00",
-    "end_time": "15:00",
-    "location": "HoF E.20 (DZ Bank)",
-    "description": "Abstract:\ntba.",
-    "description_html": "<p><strong>Abstract:</strong> tba.</p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/10/14/2237.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "mm_brownbag",
     "seminar_name": "Management & Microeconomics Brown Bag",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
@@ -108,6 +90,24 @@
     "source": "Goethe University Frankfurt"
   },
   {
+    "seminar_id": "finance_brownbag",
+    "seminar_name": "Finance Brown Bag",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/finance-brown-bag.html",
+    "title": "tba",
+    "speaker": "Daniel Liebler (Goethe University)",
+    "speaker_url": "",
+    "date": "2026-10-21",
+    "raw_date": "21 October 2026",
+    "time_info": "14:00–15:00",
+    "start_time": "14:00",
+    "end_time": "15:00",
+    "location": "HoF E.20 (DZ Bank)",
+    "description": "Abstract:\ntba.",
+    "description_html": "<p><strong>Abstract:</strong> tba.</p>",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/10/21/2237.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
     "seminar_id": "mm_amos",
     "seminar_name": "AMOS Seminar (Management & Microeconomics)",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/amos.html",
@@ -176,7 +176,7 @@
     "location": "HoF E.20 (DZ Bank)",
     "description": "Abstract:\ntba.",
     "description_html": "<p><strong>Abstract:</strong> tba.</p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/10/28/2246.html",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/10/28/2285.html",
     "source": "Goethe University Frankfurt"
   },
   {
@@ -507,7 +507,7 @@
     "seminar_id": "qep",
     "seminar_name": "Quantitative Economic Policy Seminar",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/eq/seminars/quantitative-economic-policy-seminar.html",
-    "title": "TBA",
+    "title": "Experience-based Learning, Stock Market Participation and Portfolio Choice",
     "speaker": "Richard Foltyn",
     "speaker_url": "https://www.nhh.no/en/employees/faculty/richard-foltyn/",
     "date": "2026-11-26",
@@ -516,8 +516,8 @@
     "start_time": "14:00",
     "end_time": "15:15",
     "location": "RuW 4.202",
-    "description": "",
-    "description_html": "",
+    "description": "Abstract:\nA growing body of evidence suggests that lifetime experiences play an important role in determining households' investment choices. I estimate how such experiences shape individuals' beliefs about stock returns using a long-running panel data set of elicited beliefs. I then incorporate these findings into a life cycle model and examine the extent to which they can help resolve long-standing puzzles in the literature regarding stock market participation and the fraction of financial wealth invested in risky assets. I show that experience-based learning about returns creates a positive correlation between a household's position in the wealth distribution and its optimism about future returns. The wealthy consequently increase their investment in risky assets, while participation is limited among poorer households. I find that in a reasonably calibrated quantitative model, this mechanism is able to generate limited participation and an average risky share that is close to the data.\nLink to the full paper",
+    "description_html": "<p><strong>Abstract: </strong></p>\n<p><strong></strong> </p>\n<p>A growing body of evidence suggests that lifetime experiences play an important role in determining households' investment choices. I estimate how such experiences shape individuals' beliefs about stock returns using a long-running panel data set of elicited beliefs. I then incorporate these findings into a life cycle model and examine the extent to which they can help resolve long-standing puzzles in the literature regarding stock market participation and the fraction of financial wealth invested in risky assets. I show that experience-based learning about returns creates a positive correlation between a household's position in the wealth distribution and its optimism about future returns. The wealthy consequently increase their investment in risky assets, while participation is limited among poorer households. I find that in a reasonably calibrated quantitative model, this mechanism is able to generate limited participation and an average risky share that is close to the data.</p>\n<p> </p>\n<p><strong><a class=\"external-link-new-window\" href=\"https://www.foltyn.net/research/Foltyn_EBL.pdf\" target=\"_blank\" title=\"Opens external link in new window\">Link to the full paper</a></strong></p>",
     "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/eq/seminars/quantitative-economic-policy-seminar/calendar-details/cal/event/tx_cal_phpicalendar/2026/11/26/2239.html",
     "source": "Goethe University Frankfurt"
   },
@@ -915,6 +915,24 @@
     "description": "",
     "description_html": "",
     "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/money-and-macroeconomics/macro-seminar/calendar-details/cal/event/tx_cal_phpicalendar/2027/02/02/2280.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
+    "seminar_id": "finance_brownbag",
+    "seminar_name": "Finance Brown Bag",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/finance-brown-bag.html",
+    "title": "Risk Prudence Premia",
+    "speaker": "Fabio Girardi (Visitor from WU Vienna)",
+    "speaker_url": "",
+    "date": "2027-02-03",
+    "raw_date": "03 February 2027",
+    "time_info": "14:00–15:00",
+    "start_time": "14:00",
+    "end_time": "15:00",
+    "location": "HoF E.20 (DZ Bank)",
+    "description": "Abstract:\nWe attribute the coskewness premium in the cross-section of equity portfolios, the negative variance risk premium, and the downward-sloping implied volatility skew to one common source, risk prudence, the aversion to downside risk. The discount factor in a minimum-divergence economy with skew-normal factor payoffs delivers this dependence through a single parameter. A decomposition into a symmetric and a downside-risk channel yields their prices of risk, estimated on U.S. characteristic-managed portfolios. The estimates have the signs the model predicts in the cross-section and in index and sector-fund options.",
+    "description_html": "<p><strong>Abstract:</strong> We attribute the coskewness premium in the cross-section of equity portfolios, the negative variance risk premium, and the downward-sloping implied volatility skew to one common source, risk prudence, the aversion to downside risk. The discount factor in a minimum-divergence economy with skew-normal factor payoffs delivers this dependence through a single parameter. A decomposition into a symmetric and a downside-risk channel yields their prices of risk, estimated on U.S. characteristic-managed portfolios. The estimates have the signs the model predicts in the cross-section and in index and sector-fund options.</p>",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2027/02/03/2246.html",
     "source": "Goethe University Frankfurt"
   },
   {
