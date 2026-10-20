@@ -18,24 +18,6 @@
     "source": "Goethe University Frankfurt"
   },
   {
-    "seminar_id": "lawfin",
-    "seminar_name": "LawFin Research Seminar",
-    "seminar_page": "https://www.lawfin.uni-frankfurt.de/events/lawfin-research-seminars",
-    "title": "The Information Content of Bank Supervision: Cross-Market Evidence from CSI Leaks",
-    "speaker": "Patrick Corrigan",
-    "speaker_url": "https://law.nd.edu/directory/patrick-corrigan/",
-    "date": "2026-10-19",
-    "raw_date": "19 Oct 2026",
-    "time_info": "14:15–15:30",
-    "start_time": "14:15",
-    "end_time": "15:30",
-    "location": "HoF 1.01 + online",
-    "description": "Hybrid event.\nTo enter the virtual seminar room, please use the following login credentials:\nZoom URL:\nhttps://uni-frankfurt.zoom-x.de/j/66102092973?pwd=zwcaYcOr6WsnasS86farIVfMlHw0QH.1\nMeeting ID: 661 0209 2973\nPassword: 096306\nAbstract:\nThe banking sector exhibits a unique information environment because federal banking law prohibits disclosure of confidential supervisory information (CSI)—information generated in the bank supervisory process—even when securities law would otherwise require it. Using 18 unauthorized CSI leaks affecting 26 bank-leak observations across 13 large bank holding companies between 2009 and 2024, we document heterogeneous market responses in equity and credit-default-swap (CDS) markets and classify each leak’s information channel using Merton (1974) quadrants. Six leak-events generate significant equity responses and only three move CDS spreads. Significant equity responses range from roughly 2 to 9 percent in absolute value. Only two fall in the run-risk quadrant that the stability rationale for nondisclosure presupposes.",
-    "description_html": "<p>Hybrid event.</p>\n<p>To enter the virtual seminar room, please use the following login credentials: </p>\n<p><strong>Zoom URL: </strong><a href=\"https://uni-frankfurt.zoom-x.de/j/66102092973?pwd=zwcaYcOr6WsnasS86farIVfMlHw0QH.1\" rel=\"noreferrer\" target=\"_blank\">https://uni-frankfurt.zoom-x.de/j/66102092973?pwd=zwcaYcOr6WsnasS86farIVfMlHw0QH.1</a><br/><strong>Meeting ID: 661 0209 2973</strong><br/><strong>Password: 096306</strong><br/><br/>Abstract:</p>\n<p><i>The banking sector exhibits a unique information environment because federal banking law prohibits disclosure of confidential supervisory information (CSI)—information generated in the bank supervisory process—even when securities law would otherwise require it. Using 18 unauthorized CSI leaks affecting 26 bank-leak observations across 13 large bank holding companies between 2009 and 2024, we document heterogeneous market responses in equity and credit-default-swap (CDS) markets and classify each leak’s information channel using Merton (1974) quadrants. Six leak-events generate significant equity responses and only three move CDS spreads. Significant equity responses range from roughly 2 to 9 percent in absolute value. Only two fall in the run-risk quadrant that the stability rationale for nondisclosure presupposes.</i></p>",
-    "details_url": "https://www.lawfin.uni-frankfurt.de/events/event?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=324&cHash=bc53c80167739591b4c732792139c949",
-    "source": "LawFin Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "finance_seminar",
     "seminar_name": "Finance Seminar Series",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar.html",
