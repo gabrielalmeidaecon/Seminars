@@ -36,24 +36,6 @@
     "source": "Goethe University Frankfurt"
   },
   {
-    "seminar_id": "mm_amos",
-    "seminar_name": "AMOS Seminar (Management & Microeconomics)",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/amos.html",
-    "title": "Job Ads as Signals: Evidence from a Priced Amenity and Worker Beliefs",
-    "speaker": "Simon Jäger (Princeton University)",
-    "speaker_url": "https://jaeger.scholar.princeton.edu/",
-    "date": "2026-11-05",
-    "raw_date": "05 November 2026",
-    "time_info": "12:30–13:45",
-    "start_time": "12:30",
-    "end_time": "13:45",
-    "location": "RuW 4.201",
-    "description": "Title:\nJob Ads as Signals: Evidence from a Priced Amenity and Worker Beliefs\nAbstract:\nDiscrete choice experiments are widely used to estimate workers’ willingness to pay (WTP) for job amenities under the assumption that varying an attribute does not change workers’ beliefs about other job attributes. We test this assumption by embedding an amenity with a known market price—a popular monthly public transport pass—in a largescale discrete choice experiment with German workers. Many workers, including public transport users, overvalue the ticket by more than 100%, despite WTP for other attributes aligning with the literature. A complementary belief-elicitation experiment shows that advertising an amenity, such as the pass but also common amenities like work from home, causally shifts beliefs about unlisted attributes of the job. Posted wages similarly signal unlisted attributes so that wage variation, the money metric for WTP calculation, is itself contaminated by belief spillovers—such as higher pay signaling heightened stress. These spillovers imply that discrete choice estimates capture perceived bundles rather than isolated attributes, and distort current estimates of non-wage compensation and monopsony power.",
-    "description_html": "<p><strong>Title: </strong>Job Ads as Signals: Evidence from a Priced Amenity and Worker Beliefs</p>\n<p><strong>Abstract:</strong> Discrete choice experiments are widely used to estimate workers’ willingness to pay (WTP) for job amenities under the assumption that varying an attribute does not change workers’ beliefs about other job attributes. We test this assumption by embedding an amenity with a known market price—a popular monthly public transport pass—in a largescale discrete choice experiment with German workers. Many workers, including public transport users, overvalue the ticket by more than 100%, despite WTP for other attributes aligning with the literature. A complementary belief-elicitation experiment shows that advertising an amenity, such as the pass but also common amenities like work from home, causally shifts beliefs about unlisted attributes of the job. Posted wages similarly signal unlisted attributes so that wage variation, the money metric for WTP calculation, is itself contaminated by belief spillovers—such as higher pay signaling heightened stress. These spillovers imply that discrete choice estimates capture perceived bundles rather than isolated attributes, and distort current estimates of non-wage compensation and monopsony power.</p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/amos/calendar-details-mm-seminar/cal/event/tx_cal_phpicalendar/2026/11/05/2255.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "finance_seminar",
     "seminar_name": "Finance Seminar Series",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar.html",
