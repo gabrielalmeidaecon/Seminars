@@ -108,24 +108,6 @@
     "source": "Goethe University Frankfurt"
   },
   {
-    "seminar_id": "finance_brownbag",
-    "seminar_name": "Finance Brown Bag",
-    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/finance-brown-bag.html",
-    "title": "Intermediary Capital and Commodity Prices",
-    "speaker": "Silie Homayon Nawabi (GSEFM)",
-    "speaker_url": "",
-    "date": "2026-12-02",
-    "raw_date": "02 December 2026",
-    "time_info": "14:00–15:00",
-    "start_time": "14:00",
-    "end_time": "15:00",
-    "location": "HoF E.20 (DZ Bank)",
-    "description": "Abstract:\nThis paper studies how intermediary balance-sheet capacity affects commodity price dynamics through producers' hedging and inventory decisions. I build on a theoretical framework in which risk-averse producers transfer commodity price risk to financial intermediaries through futures markets. Intermediaries face balance-sheet constraints that limit their ability to absorb this risk. When intermediary capital increases, these constraints ease, allowing producers to hedge more effectively and making inventory accumulation less risky. The resulting increase in inventories raises future commodity supply and puts downward pressure on spot prices. Importantly, the strength of this transmission mechanism depends on the storability of the commodity: inventory adjustment is more responsive for commodities with greater inventory flexibility. I test the model's predictions using a panel of commodity markets and the intermediary capital measure of He, Kelly, and Manela (2017). The empirical results show that increases in intermediary capital are associated with more pronounced declines in spot-price returns for commodities with higher storability characteristics.",
-    "description_html": "<p><strong>Abstract:</strong> This paper studies how intermediary balance-sheet capacity affects commodity price dynamics through producers' hedging and inventory decisions. I build on a theoretical framework in which risk-averse producers transfer commodity price risk to financial intermediaries through futures markets. Intermediaries face balance-sheet constraints that limit their ability to absorb this risk. When intermediary capital increases, these constraints ease, allowing producers to hedge more effectively and making inventory accumulation less risky. The resulting increase in inventories raises future commodity supply and puts downward pressure on spot prices. Importantly, the strength of this transmission mechanism depends on the storability of the commodity: inventory adjustment is more responsive for commodities with greater inventory flexibility. I test the model's predictions using a panel of commodity markets and the intermediary capital measure of He, Kelly, and Manela (2017). The empirical results show that increases in intermediary capital are associated with more pronounced declines in spot-price returns for commodities with higher storability characteristics. </p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/12/02/2266.html",
-    "source": "Goethe University Frankfurt"
-  },
-  {
     "seminar_id": "mm_brownbag",
     "seminar_name": "Management & Microeconomics Brown Bag",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/mm/forschung/forschungskolloquien/brown-bag-seminar.html",
@@ -255,8 +237,8 @@
     "seminar_id": "finance_brownbag",
     "seminar_name": "Finance Brown Bag",
     "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/finance-brown-bag.html",
-    "title": "tba",
-    "speaker": "Daniel Liebler (Goethe University)",
+    "title": "Intermediary Capital and Commodity Prices",
+    "speaker": "Silie Homayon Nawabi (GSEFM)",
     "speaker_url": "",
     "date": "2026-12-16",
     "raw_date": "16 December 2026",
@@ -264,9 +246,9 @@
     "start_time": "14:00",
     "end_time": "15:00",
     "location": "HoF E.20 (DZ Bank)",
-    "description": "Abstract:\ntba.",
-    "description_html": "<p><strong>Abstract:</strong> tba.</p>",
-    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/12/16/2237.html",
+    "description": "Abstract:\nThis paper studies how intermediary balance-sheet capacity affects commodity price dynamics through producers' hedging and inventory decisions. I build on a theoretical framework in which risk-averse producers transfer commodity price risk to financial intermediaries through futures markets. Intermediaries face balance-sheet constraints that limit their ability to absorb this risk. When intermediary capital increases, these constraints ease, allowing producers to hedge more effectively and making inventory accumulation less risky. The resulting increase in inventories raises future commodity supply and puts downward pressure on spot prices. Importantly, the strength of this transmission mechanism depends on the storability of the commodity: inventory adjustment is more responsive for commodities with greater inventory flexibility. I test the model's predictions using a panel of commodity markets and the intermediary capital measure of He, Kelly, and Manela (2017). The empirical results show that increases in intermediary capital are associated with more pronounced declines in spot-price returns for commodities with higher storability characteristics.",
+    "description_html": "<p><strong>Abstract:</strong> This paper studies how intermediary balance-sheet capacity affects commodity price dynamics through producers' hedging and inventory decisions. I build on a theoretical framework in which risk-averse producers transfer commodity price risk to financial intermediaries through futures markets. Intermediaries face balance-sheet constraints that limit their ability to absorb this risk. When intermediary capital increases, these constraints ease, allowing producers to hedge more effectively and making inventory accumulation less risky. The resulting increase in inventories raises future commodity supply and puts downward pressure on spot prices. Importantly, the strength of this transmission mechanism depends on the storability of the commodity: inventory adjustment is more responsive for commodities with greater inventory flexibility. I test the model's predictions using a panel of commodity markets and the intermediary capital measure of He, Kelly, and Manela (2017). The empirical results show that increases in intermediary capital are associated with more pronounced declines in spot-price returns for commodities with higher storability characteristics. </p>",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2026/12/16/2266.html",
     "source": "Goethe University Frankfurt"
   },
   {
@@ -393,6 +375,24 @@
     "description": "",
     "description_html": "",
     "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/finance-seminar-series/seminar-calendar/calendar-details/cal/event/tx_cal_phpicalendar/2027/01/19/2233.html",
+    "source": "Goethe University Frankfurt"
+  },
+  {
+    "seminar_id": "finance_brownbag",
+    "seminar_name": "Finance Brown Bag",
+    "seminar_page": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/finance-brown-bag.html",
+    "title": "tba",
+    "speaker": "Daniel Liebler (Goethe University)",
+    "speaker_url": "",
+    "date": "2027-01-20",
+    "raw_date": "20 January 2027",
+    "time_info": "14:00–15:00",
+    "start_time": "14:00",
+    "end_time": "15:00",
+    "location": "HoF E.20 (DZ Bank)",
+    "description": "Abstract:\ntba.",
+    "description_html": "<p><strong>Abstract:</strong> tba.</p>",
+    "details_url": "https://www.old.wiwi.uni-frankfurt.de/abteilungen/finance/seminar/brown-bag/calendar-details/cal/event/tx_cal_phpicalendar/2027/01/20/2237.html",
     "source": "Goethe University Frankfurt"
   },
   {
